@@ -1,0 +1,3119 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Ysabeau Office Bold";
+  src: url("../fonts/YsabeauOffice-Bold.ttf");
+}
+@font-face {
+  font-family: "Ysabeau Office Medium";
+  src: url("../fonts/YsabeauOffice-Medium.ttf");
+}
+@font-face {
+  font-family: "Caveat";
+  src: url("../fonts/Caveat-SemiBold.ttf");
+}
+header {
+  display: flex;
+  height: 96px;
+  width: 100vw;
+}
+header section.logo {
+  position: relative;
+  top: 12px;
+  left: 10vw;
+}
+header section.menu {
+  position: relative;
+  top: 58px;
+  left: 16vw;
+}
+header nav .socials {
+  width: 110px;
+  height: 30px;
+  position: absolute;
+  top: 33px;
+  left: 33vw;
+  display: flex;
+  justify-content: space-around;
+}
+header nav .address {
+  display: flex;
+}
+header nav .site-location {
+  width: 195px;
+  height: 40px;
+  position: absolute;
+  left: 48vw;
+  top: 31px;
+  display: inline-block;
+}
+header nav .site-location .bold {
+  font-family: "Ysabeau Office Bold";
+}
+header nav .site-location .regular {
+  font-family: "Ysabeau Office Medium";
+}
+header nav .office-location {
+  width: 255px;
+  height: 40px;
+  position: absolute;
+  left: 60vw;
+  top: 31px;
+}
+header nav .office-location .bold {
+  font-family: "Ysabeau Office Bold";
+}
+header nav .office-location .regular {
+  font-family: "Ysabeau Office Medium";
+}
+header nav .buttons {
+  width: 375px;
+  position: absolute;
+  left: 75vw;
+  top: 33px;
+}
+header nav .buttons .first {
+  width: 176px;
+  height: 50px;
+  border-radius: 14px;
+  border: none;
+  font-family: "Ysabeau Office Bold";
+  color: #ffffff;
+  text-align: center;
+  background-color: #1C9197;
+  font-size: 16px;
+}
+header nav .buttons .second {
+  width: 184px;
+  height: 50px;
+  border-radius: 14px;
+  border: none;
+  font-family: "Ysabeau Office Bold";
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  background-color: #E87000;
+}
+
+main .video #video {
+  width: 100vw;
+}
+main h1 {
+  width: 1170px;
+  height: 50px;
+  top: 376px;
+  position: absolute;
+  left: 19vw;
+  text-align: center;
+  font-size: 75px;
+  font-family: "Caveat";
+  font-size: 75px;
+  color: #ffffff;
+  line-height: 95px;
+}
+main p.first-paragraph {
+  width: 1170px;
+  height: 29px;
+  position: absolute;
+  top: 520px;
+  left: 19vw;
+  font-family: "Ysabeau Office Medium";
+  line-height: 47px;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+main .cookie {
+  border: solid 1px black;
+  font-family: "Ysabeau Office Medium";
+  font-size: 14px;
+  width: 430px;
+  height: 100px;
+  position: absolute;
+  left: 61vw;
+  top: 75vh;
+  border-color: #1C9197;
+  border-width: 2px;
+  border-radius: 14px;
+  background-color: #ffffff;
+  text-align: center;
+}
+main .cookie span {
+  width: 383px;
+  height: 60px;
+  left: 20px;
+  position: absolute;
+  line-height: 17px;
+  padding: 15px;
+}
+main .cookie .close {
+  position: absolute;
+  left: 210px;
+}
+main .event {
+  width: 1171px;
+  height: 1240px;
+  position: absolute;
+  top: 1000px;
+  left: 370px;
+}
+main .event h2 {
+  font-family: "Ysabeau Office Bold";
+  font-size: 45px;
+  height: 32px;
+}
+main .event .tab {
+  width: 283px;
+  height: 50px;
+  position: relative;
+  top: 30px;
+  display: flex;
+}
+main .event .tab div {
+  display: flex;
+}
+main .event .tab .shifts {
+  font-family: "Ysabeau Office Bold";
+  font-size: 20px;
+  color: #ffffff;
+  width: 110px;
+  border-radius: 10px;
+  background-color: #E87000;
+  height: 50px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .event .tab .events {
+  width: 128px;
+  position: absolute;
+  left: 150px;
+  font-family: "Ysabeau Office Bold";
+  font-size: 20px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .event .tab .image {
+  position: absolute;
+  left: 750px;
+  top: -80px;
+}
+main .event .cards {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 370px 370px 370px;
+  gap: 30px;
+}
+main .event .cards .card {
+  height: 449px;
+}
+main .event .cards .info {
+  height: 182px;
+  border-radius: 0px 0px 30px 30px;
+  background-color: #EEEADE;
+  margin-top: -5px;
+  border: none;
+}
+main .event .cards .info .title {
+  font-family: "Ysabeau Office Bold";
+  font-size: 22px;
+  line-height: 27px;
+  height: 41px;
+  display: inline-block;
+  width: 310px;
+  position: relative;
+  left: 25px;
+  top: 27px;
+}
+main .event .cards .info .date {
+  font-family: "Ysabeau Office Medium";
+  font-size: 20px;
+  display: inline-block;
+  position: relative;
+  top: 35px;
+  width: 320px;
+  height: 16px;
+  left: 25px;
+}
+main .event .cards .info button {
+  width: 138px;
+  height: 16px;
+  font-family: "Caveat";
+  font-size: 25px;
+  border: none;
+  position: relative;
+  top: 50px;
+  background-color: #EEEADE;
+}
+main .event .cards .info a {
+  position: relative;
+  top: 53px;
+  right: 15px;
+}
+main .event .allEvents {
+  font-family: "Ysabeau Office Bold";
+  color: #ffffff;
+  font-size: 17px;
+  width: 177px;
+  height: 60px;
+  position: relative;
+  top: 25px;
+  background-color: #1C9197;
+  border-radius: 16px;
+  border: none;
+  margin-left: 42%;
+}
+main section.forest-img {
+  position: absolute;
+  top: 2000px;
+}
+main .about {
+  width: 1910px;
+  position: absolute;
+  top: 2344px;
+  height: 800px;
+  background-color: #1C9197;
+}
+main .about .forest-about {
+  position: absolute;
+  left: 1140px;
+  top: 30px;
+}
+main .about .intro h2 {
+  font-family: "Ysabeau Office Bold";
+  font-size: 45px;
+  color: #ffffff;
+  width: 1170px;
+  padding-left: 370px;
+  padding-top: 50px;
+}
+main .about .intro p {
+  font-family: "Caveat";
+  font-size: 54px;
+  color: #EEEADE;
+  padding-left: 370px;
+  margin-top: -40px;
+}
+main .about div.sections {
+  display: grid;
+  grid-template-columns: 570px 570px;
+  gap: 30px;
+  padding-left: 370px;
+}
+main .about div.sections .section {
+  border: none;
+  border-radius: 30px;
+  background-color: #ffffff;
+  display: flex;
+  padding-bottom: 20px;
+}
+main .about div.sections .section .text h3 {
+  font-family: "Ysabeau Office Bold";
+  font-size: 25px;
+  padding-left: 30px;
+  margin-bottom: 0px;
+}
+main .about div.sections .section .text p {
+  font-family: "Ysabeau Office Medium";
+  font-size: 20px;
+  padding-left: 30px;
+  height: 67px;
+  margin-top: 0px;
+  padding-top: 25px;
+}
+main .about div.sections .section img {
+  padding-right: 15px;
+  margin-top: -20px;
+}
+main .about button.more {
+  font-family: "Ysabeau Office Bold";
+  font-size: 17px;
+  text-align: center;
+  width: 211px;
+  height: 60px;
+  position: absolute;
+  top: 720px;
+  border-radius: 16px;
+  background-color: #EEEADE;
+  left: 850px;
+  border: none;
+}
+main section.partners {
+  width: 1250px;
+  position: absolute;
+  top: 3207px;
+  left: 330px;
+  height: 169px;
+}
+main section.partners h2 {
+  font-family: "Ysabeau Office Bold";
+  font-size: 45px;
+  padding-left: 40px;
+  margin: 0px;
+}
+main section.partners .companies img:first-child {
+  position: absolute;
+  top: 110px;
+}
+main section.partners .companies img:last-child {
+  position: absolute;
+  top: 110px;
+  right: 0px;
+}
+main section.partners .firstCompany, main section.partners .secondCompany, main section.partners .thirdCompany, main section.partners .fourthCompany {
+  position: relative;
+  left: 35px;
+  margin-right: 25px;
+  top: 15px;
+}
+main section.mountains {
+  position: absolute;
+  top: 3273px;
+  left: 1140px;
+}
+main section.nature {
+  position: absolute;
+  top: 3471px;
+  left: 87px;
+  z-index: 1;
+}
+main .road {
+  position: absolute;
+  top: 3446px;
+  width: 1910px;
+  height: 503px;
+  background-color: #EEEADE;
+  display: flex;
+}
+main .road .infoRoad .headingRoad h2 {
+  font-family: "Ysabeau Office Bold";
+  font-size: 45px;
+  width: 530px;
+  padding-left: 370px;
+}
+main .road .infoRoad .headingRoad span {
+  display: inline-block;
+  width: 251px;
+  font-family: "Caveat";
+  font-size: 54px;
+  color: #1C9197;
+  position: relative;
+  left: 670px;
+  top: -100px;
+}
+main .road .infoRoad .description p {
+  font-family: "Ysabeau Office Bold";
+  font-size: 25px;
+  padding-left: 370px;
+  position: relative;
+  top: -90px;
+  z-index: 2;
+  width: 550px;
+}
+main .road .infoRoad .buttons {
+  z-index: 2;
+  position: relative;
+}
+main .road .infoRoad .buttons .buildRoute {
+  position: relative;
+  left: 370px;
+  top: -50px;
+  width: 237px;
+  height: 60px;
+  font-family: "Ysabeau Office Bold";
+  color: #ffffff;
+  text-align: center;
+  font-size: 17px;
+  border-radius: 16px;
+  border: none;
+  background-color: #1C9197;
+}
+main .road .infoRoad .buttons .orderRide {
+  position: relative;
+  left: 385px;
+  top: -50px;
+  width: 227px;
+  height: 60px;
+  border-radius: 16px;
+  border: none;
+  font-family: "Ysabeau Office Bold";
+  color: #ffffff;
+  font-size: 17px;
+  background-color: #E87000;
+  text-align: center;
+}
+main .road .directions {
+  font-family: "Ysabeau Office Medium";
+  font-size: 20px;
+  width: 570px;
+  position: relative;
+  left: 40px;
+  top: 30px;
+}
+main .forestContacts {
+  position: absolute;
+  top: -163px;
+  z-index: 3;
+}
+main footer {
+  width: 1910px;
+  height: 741px;
+  position: absolute;
+  top: 3949px;
+  background-color: #1C9197;
+}
+main footer h2 {
+  font-family: "Ysabeau Office Bold";
+  color: #ffffff;
+  font-size: 45px;
+  width: 530px;
+  height: 35px;
+  padding-left: 370px;
+  padding-top: 70px;
+}
+main footer .address {
+  color: #ffffff;
+  font-size: 20px;
+  width: 570px;
+  padding-left: 370px;
+  position: absolute;
+  top: 155px;
+}
+main footer .address .bold {
+  font-family: "Ysabeau Office Bold";
+}
+main footer .address .tel {
+  text-decoration: underline;
+}
+main footer .address .mail {
+  display: block;
+  text-decoration: underline;
+}
+main footer .address .last-section {
+  display: block;
+}
+main footer .address p {
+  font-family: "Ysabeau Office Medium";
+}
+main footer .socials-footer {
+  width: 110px;
+  position: absolute;
+  top: 531px;
+  left: 370px;
+  display: flex;
+  justify-content: space-around;
+}
+main footer div.map {
+  position: absolute;
+  top: 73px;
+  left: 970px;
+}
+main footer div.map img:last-child {
+  position: absolute;
+  top: 453px;
+  left: 503px;
+}
+main footer div.footer {
+  width: 1198px;
+  height: 73px;
+  position: absolute;
+  top: 623px;
+  left: 370px;
+}
+main footer div.footer span.note {
+  font-family: "Ysabeau Office Medium";
+  color: #ffffff;
+  font-size: 16px;
+  width: 240px;
+  position: relative;
+  left: 60px;
+  top: -30px;
+}
+main footer div.footer span.terms {
+  font-family: "Ysabeau Office Medium";
+  color: #ffffff;
+  font-size: 16px;
+  width: 270px;
+  height: 40px;
+  position: relative;
+  left: 160px;
+  top: -30px;
+}
+main footer div.footer span.payment {
+  font-family: "Ysabeau Office Medium";
+  color: #ffffff;
+  font-size: 16px;
+  width: 270px;
+  height: 40px;
+  position: relative;
+  left: 682px;
+  top: -30px;
+  display: block;
+}
+
+@media (max-width: 1500px) {
+  header {
+    display: flex;
+    height: 96px;
+    width: 100vw;
+  }
+  header section.logo {
+    position: relative;
+    top: 12px;
+    left: 10vw;
+  }
+  header section.menu {
+    position: relative;
+    top: 58px;
+    left: 16vw;
+  }
+  header nav .socials {
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    top: 33px;
+    left: 33vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav .address {
+    display: flex;
+  }
+  header nav .site-location {
+    width: 195px;
+    height: 40px;
+    position: absolute;
+    left: 48vw;
+    top: 31px;
+    display: inline-block;
+  }
+  header nav .site-location .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  header nav .site-location .regular {
+    font-family: "Ysabeau Office Medium";
+  }
+  header nav .office-location {
+    width: 255px;
+    height: 40px;
+    position: absolute;
+    left: 60vw;
+    top: 31px;
+  }
+  header nav .office-location .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  header nav .office-location .regular {
+    font-family: "Ysabeau Office Medium";
+  }
+  header nav .buttons {
+    width: 375px;
+    position: absolute;
+    left: 75vw;
+    top: 33px;
+  }
+  header nav .buttons .first {
+    width: 176px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    text-align: center;
+    background-color: #1C9197;
+    font-size: 16px;
+  }
+  header nav .buttons .second {
+    width: 184px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    background-color: #E87000;
+  }
+  main .video #video {
+    width: 100vw;
+  }
+  main h1 {
+    width: 1170px;
+    height: 50px;
+    top: 376px;
+    position: absolute;
+    left: 19vw;
+    text-align: center;
+    font-size: 75px;
+    font-family: "Caveat";
+    font-size: 75px;
+    color: #ffffff;
+    line-height: 95px;
+  }
+  main p.first-paragraph {
+    width: 1170px;
+    height: 29px;
+    position: absolute;
+    top: 520px;
+    left: 19vw;
+    font-family: "Ysabeau Office Medium";
+    line-height: 47px;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+  }
+  main .cookie {
+    border: solid 1px black;
+    font-family: "Ysabeau Office Medium";
+    font-size: 14px;
+    width: 430px;
+    height: 100px;
+    position: absolute;
+    left: 61vw;
+    top: 75vh;
+    border-color: #1C9197;
+    border-width: 2px;
+    border-radius: 14px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  main .cookie span {
+    width: 383px;
+    height: 60px;
+    left: 20px;
+    position: absolute;
+    line-height: 17px;
+    padding: 15px;
+  }
+  main .cookie .close {
+    position: absolute;
+    left: 210px;
+  }
+  main .event {
+    width: 1171px;
+    height: 1240px;
+    position: absolute;
+    top: 1000px;
+    left: 370px;
+  }
+  main .event h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    height: 32px;
+  }
+  main .event .tab {
+    width: 283px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    display: flex;
+  }
+  main .event .tab div {
+    display: flex;
+  }
+  main .event .tab .shifts {
+    font-family: "Ysabeau Office Bold";
+    font-size: 20px;
+    color: #ffffff;
+    width: 110px;
+    border-radius: 10px;
+    background-color: #E87000;
+    height: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .event .tab .events {
+    width: 128px;
+    position: absolute;
+    left: 150px;
+    font-family: "Ysabeau Office Bold";
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .event .tab .image {
+    position: absolute;
+    left: 750px;
+    top: -80px;
+  }
+  main .event .cards {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    gap: 30px;
+  }
+  main .event .cards .card {
+    height: 449px;
+  }
+  main .event .cards .info {
+    height: 182px;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #EEEADE;
+    margin-top: -5px;
+    border: none;
+  }
+  main .event .cards .info .title {
+    font-family: "Ysabeau Office Bold";
+    font-size: 22px;
+    line-height: 27px;
+    height: 41px;
+    display: inline-block;
+    width: 310px;
+    position: relative;
+    left: 25px;
+    top: 27px;
+  }
+  main .event .cards .info .date {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    width: 320px;
+    height: 16px;
+    left: 25px;
+  }
+  main .event .cards .info button {
+    width: 138px;
+    height: 16px;
+    font-family: "Caveat";
+    font-size: 25px;
+    border: none;
+    position: relative;
+    top: 50px;
+    background-color: #EEEADE;
+  }
+  main .event .cards .info a {
+    position: relative;
+    top: 53px;
+    right: 15px;
+  }
+  main .event .allEvents {
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 17px;
+    width: 177px;
+    height: 60px;
+    position: relative;
+    top: 25px;
+    background-color: #1C9197;
+    border-radius: 16px;
+    border: none;
+    margin-left: 42%;
+  }
+  main section.forest-img {
+    position: absolute;
+    top: 2000px;
+  }
+  main .about {
+    width: 1910px;
+    position: absolute;
+    top: 2344px;
+    height: 800px;
+    background-color: #1C9197;
+  }
+  main .about .forest-about {
+    position: absolute;
+    left: 1140px;
+    top: 30px;
+  }
+  main .about .intro h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    color: #ffffff;
+    width: 1170px;
+    padding-left: 370px;
+    padding-top: 50px;
+  }
+  main .about .intro p {
+    font-family: "Caveat";
+    font-size: 54px;
+    color: #EEEADE;
+    padding-left: 370px;
+    margin-top: -40px;
+  }
+  main .about div.sections {
+    display: grid;
+    grid-template-columns: 570px 570px;
+    gap: 30px;
+    padding-left: 370px;
+  }
+  main .about div.sections .section {
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    display: flex;
+    padding-bottom: 20px;
+  }
+  main .about div.sections .section .text h3 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+  }
+  main .about div.sections .section .text p {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    padding-left: 30px;
+    height: 67px;
+    margin-top: 0px;
+    padding-top: 25px;
+  }
+  main .about div.sections .section img {
+    padding-right: 15px;
+    margin-top: -20px;
+  }
+  main .about button.more {
+    font-family: "Ysabeau Office Bold";
+    font-size: 17px;
+    text-align: center;
+    width: 211px;
+    height: 60px;
+    position: absolute;
+    top: 720px;
+    border-radius: 16px;
+    background-color: #EEEADE;
+    left: 850px;
+    border: none;
+  }
+  main section.partners {
+    width: 1250px;
+    position: absolute;
+    top: 3207px;
+    left: 330px;
+    height: 169px;
+  }
+  main section.partners h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    padding-left: 40px;
+    margin: 0px;
+  }
+  main section.partners .companies img:first-child {
+    position: absolute;
+    top: 110px;
+  }
+  main section.partners .companies img:last-child {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+  }
+  main section.partners .firstCompany, main section.partners .secondCompany, main section.partners .thirdCompany, main section.partners .fourthCompany {
+    position: relative;
+    left: 35px;
+    margin-right: 25px;
+    top: 15px;
+  }
+  main section.mountains {
+    position: absolute;
+    top: 3273px;
+    left: 1140px;
+  }
+  main section.nature {
+    position: absolute;
+    top: 3471px;
+    left: 87px;
+    z-index: 1;
+  }
+  main .road {
+    position: absolute;
+    top: 3446px;
+    width: 1910px;
+    height: 503px;
+    background-color: #EEEADE;
+    display: flex;
+  }
+  main .road .infoRoad .headingRoad h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    width: 530px;
+    padding-left: 370px;
+  }
+  main .road .infoRoad .headingRoad span {
+    display: inline-block;
+    width: 251px;
+    font-family: "Caveat";
+    font-size: 54px;
+    color: #1C9197;
+    position: relative;
+    left: 670px;
+    top: -100px;
+  }
+  main .road .infoRoad .description p {
+    font-family: "Ysabeau Office Bold";
+    font-size: 25px;
+    padding-left: 370px;
+    position: relative;
+    top: -90px;
+    z-index: 2;
+    width: 550px;
+  }
+  main .road .infoRoad .buttons {
+    z-index: 2;
+    position: relative;
+  }
+  main .road .infoRoad .buttons .buildRoute {
+    position: relative;
+    left: 370px;
+    top: -50px;
+    width: 237px;
+    height: 60px;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 16px;
+    border: none;
+    background-color: #1C9197;
+  }
+  main .road .infoRoad .buttons .orderRide {
+    position: relative;
+    left: 385px;
+    top: -50px;
+    width: 227px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #E87000;
+    text-align: center;
+  }
+  main .road .directions {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    width: 570px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+  }
+  main .forestContacts {
+    position: absolute;
+    top: -163px;
+    z-index: 3;
+  }
+  main footer {
+    width: 1910px;
+    height: 741px;
+    position: absolute;
+    top: 3949px;
+    background-color: #1C9197;
+  }
+  main footer h2 {
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 45px;
+    width: 530px;
+    height: 35px;
+    padding-left: 370px;
+    padding-top: 70px;
+  }
+  main footer .address {
+    color: #ffffff;
+    font-size: 20px;
+    width: 570px;
+    padding-left: 370px;
+    position: absolute;
+    top: 155px;
+  }
+  main footer .address .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  main footer .address .tel {
+    text-decoration: underline;
+  }
+  main footer .address .mail {
+    display: block;
+    text-decoration: underline;
+  }
+  main footer .address .last-section {
+    display: block;
+  }
+  main footer .address p {
+    font-family: "Ysabeau Office Medium";
+  }
+  main footer .socials-footer {
+    width: 110px;
+    position: absolute;
+    top: 531px;
+    left: 370px;
+    display: flex;
+    justify-content: space-around;
+  }
+  main footer div.map {
+    position: absolute;
+    top: 73px;
+    left: 970px;
+  }
+  main footer div.map img:last-child {
+    position: absolute;
+    top: 453px;
+    left: 503px;
+  }
+  main footer div.footer {
+    width: 1198px;
+    height: 73px;
+    position: absolute;
+    top: 623px;
+    left: 370px;
+  }
+  main footer div.footer span.note {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 240px;
+    position: relative;
+    left: 60px;
+    top: -30px;
+  }
+  main footer div.footer span.terms {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 160px;
+    top: -30px;
+  }
+  main footer div.footer span.payment {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 682px;
+    top: -30px;
+    display: block;
+  }
+}
+@media (max-width: 1250px) {
+  header {
+    display: flex;
+    height: 96px;
+    width: 100vw;
+  }
+  header section.logo {
+    position: relative;
+    top: 12px;
+    left: 10vw;
+  }
+  header section.menu {
+    position: relative;
+    top: 58px;
+    left: 16vw;
+  }
+  header nav .socials {
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    top: 33px;
+    left: 33vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav .address {
+    display: flex;
+  }
+  header nav .site-location {
+    width: 195px;
+    height: 40px;
+    position: absolute;
+    left: 48vw;
+    top: 31px;
+    display: inline-block;
+  }
+  header nav .site-location .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  header nav .site-location .regular {
+    font-family: "Ysabeau Office Medium";
+  }
+  header nav .office-location {
+    width: 255px;
+    height: 40px;
+    position: absolute;
+    left: 60vw;
+    top: 31px;
+  }
+  header nav .office-location .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  header nav .office-location .regular {
+    font-family: "Ysabeau Office Medium";
+  }
+  header nav .buttons {
+    width: 375px;
+    position: absolute;
+    left: 75vw;
+    top: 33px;
+  }
+  header nav .buttons .first {
+    width: 176px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    text-align: center;
+    background-color: #1C9197;
+    font-size: 16px;
+  }
+  header nav .buttons .second {
+    width: 184px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    background-color: #E87000;
+  }
+  main .video #video {
+    width: 100vw;
+  }
+  main h1 {
+    width: 1170px;
+    height: 50px;
+    top: 376px;
+    position: absolute;
+    left: 19vw;
+    text-align: center;
+    font-size: 75px;
+    font-family: "Caveat";
+    font-size: 75px;
+    color: #ffffff;
+    line-height: 95px;
+  }
+  main p.first-paragraph {
+    width: 1170px;
+    height: 29px;
+    position: absolute;
+    top: 520px;
+    left: 19vw;
+    font-family: "Ysabeau Office Medium";
+    line-height: 47px;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+  }
+  main .cookie {
+    border: solid 1px black;
+    font-family: "Ysabeau Office Medium";
+    font-size: 14px;
+    width: 430px;
+    height: 100px;
+    position: absolute;
+    left: 61vw;
+    top: 75vh;
+    border-color: #1C9197;
+    border-width: 2px;
+    border-radius: 14px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  main .cookie span {
+    width: 383px;
+    height: 60px;
+    left: 20px;
+    position: absolute;
+    line-height: 17px;
+    padding: 15px;
+  }
+  main .cookie .close {
+    position: absolute;
+    left: 210px;
+  }
+  main .event {
+    width: 1171px;
+    height: 1240px;
+    position: absolute;
+    top: 1000px;
+    left: 370px;
+  }
+  main .event h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    height: 32px;
+  }
+  main .event .tab {
+    width: 283px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    display: flex;
+  }
+  main .event .tab div {
+    display: flex;
+  }
+  main .event .tab .shifts {
+    font-family: "Ysabeau Office Bold";
+    font-size: 20px;
+    color: #ffffff;
+    width: 110px;
+    border-radius: 10px;
+    background-color: #E87000;
+    height: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .event .tab .events {
+    width: 128px;
+    position: absolute;
+    left: 150px;
+    font-family: "Ysabeau Office Bold";
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .event .tab .image {
+    position: absolute;
+    left: 750px;
+    top: -80px;
+  }
+  main .event .cards {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    gap: 30px;
+  }
+  main .event .cards .card {
+    height: 449px;
+  }
+  main .event .cards .info {
+    height: 182px;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #EEEADE;
+    margin-top: -5px;
+    border: none;
+  }
+  main .event .cards .info .title {
+    font-family: "Ysabeau Office Bold";
+    font-size: 22px;
+    line-height: 27px;
+    height: 41px;
+    display: inline-block;
+    width: 310px;
+    position: relative;
+    left: 25px;
+    top: 27px;
+  }
+  main .event .cards .info .date {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    width: 320px;
+    height: 16px;
+    left: 25px;
+  }
+  main .event .cards .info button {
+    width: 138px;
+    height: 16px;
+    font-family: "Caveat";
+    font-size: 25px;
+    border: none;
+    position: relative;
+    top: 50px;
+    background-color: #EEEADE;
+  }
+  main .event .cards .info a {
+    position: relative;
+    top: 53px;
+    right: 15px;
+  }
+  main .event .allEvents {
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 17px;
+    width: 177px;
+    height: 60px;
+    position: relative;
+    top: 25px;
+    background-color: #1C9197;
+    border-radius: 16px;
+    border: none;
+    margin-left: 42%;
+  }
+  main section.forest-img {
+    position: absolute;
+    top: 2000px;
+  }
+  main .about {
+    width: 1910px;
+    position: absolute;
+    top: 2344px;
+    height: 800px;
+    background-color: #1C9197;
+  }
+  main .about .forest-about {
+    position: absolute;
+    left: 1140px;
+    top: 30px;
+  }
+  main .about .intro h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    color: #ffffff;
+    width: 1170px;
+    padding-left: 370px;
+    padding-top: 50px;
+  }
+  main .about .intro p {
+    font-family: "Caveat";
+    font-size: 54px;
+    color: #EEEADE;
+    padding-left: 370px;
+    margin-top: -40px;
+  }
+  main .about div.sections {
+    display: grid;
+    grid-template-columns: 570px 570px;
+    gap: 30px;
+    padding-left: 370px;
+  }
+  main .about div.sections .section {
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    display: flex;
+    padding-bottom: 20px;
+  }
+  main .about div.sections .section .text h3 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+  }
+  main .about div.sections .section .text p {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    padding-left: 30px;
+    height: 67px;
+    margin-top: 0px;
+    padding-top: 25px;
+  }
+  main .about div.sections .section img {
+    padding-right: 15px;
+    margin-top: -20px;
+  }
+  main .about button.more {
+    font-family: "Ysabeau Office Bold";
+    font-size: 17px;
+    text-align: center;
+    width: 211px;
+    height: 60px;
+    position: absolute;
+    top: 720px;
+    border-radius: 16px;
+    background-color: #EEEADE;
+    left: 850px;
+    border: none;
+  }
+  main section.partners {
+    width: 1250px;
+    position: absolute;
+    top: 3207px;
+    left: 330px;
+    height: 169px;
+  }
+  main section.partners h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    padding-left: 40px;
+    margin: 0px;
+  }
+  main section.partners .companies img:first-child {
+    position: absolute;
+    top: 110px;
+  }
+  main section.partners .companies img:last-child {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+  }
+  main section.partners .firstCompany, main section.partners .secondCompany, main section.partners .thirdCompany, main section.partners .fourthCompany {
+    position: relative;
+    left: 35px;
+    margin-right: 25px;
+    top: 15px;
+  }
+  main section.mountains {
+    position: absolute;
+    top: 3273px;
+    left: 1140px;
+  }
+  main section.nature {
+    position: absolute;
+    top: 3471px;
+    left: 87px;
+    z-index: 1;
+  }
+  main .road {
+    position: absolute;
+    top: 3446px;
+    width: 1910px;
+    height: 503px;
+    background-color: #EEEADE;
+    display: flex;
+  }
+  main .road .infoRoad .headingRoad h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    width: 530px;
+    padding-left: 370px;
+  }
+  main .road .infoRoad .headingRoad span {
+    display: inline-block;
+    width: 251px;
+    font-family: "Caveat";
+    font-size: 54px;
+    color: #1C9197;
+    position: relative;
+    left: 670px;
+    top: -100px;
+  }
+  main .road .infoRoad .description p {
+    font-family: "Ysabeau Office Bold";
+    font-size: 25px;
+    padding-left: 370px;
+    position: relative;
+    top: -90px;
+    z-index: 2;
+    width: 550px;
+  }
+  main .road .infoRoad .buttons {
+    z-index: 2;
+    position: relative;
+  }
+  main .road .infoRoad .buttons .buildRoute {
+    position: relative;
+    left: 370px;
+    top: -50px;
+    width: 237px;
+    height: 60px;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 16px;
+    border: none;
+    background-color: #1C9197;
+  }
+  main .road .infoRoad .buttons .orderRide {
+    position: relative;
+    left: 385px;
+    top: -50px;
+    width: 227px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #E87000;
+    text-align: center;
+  }
+  main .road .directions {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    width: 570px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+  }
+  main .forestContacts {
+    position: absolute;
+    top: -163px;
+    z-index: 3;
+  }
+  main footer {
+    width: 1910px;
+    height: 741px;
+    position: absolute;
+    top: 3949px;
+    background-color: #1C9197;
+  }
+  main footer h2 {
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 45px;
+    width: 530px;
+    height: 35px;
+    padding-left: 370px;
+    padding-top: 70px;
+  }
+  main footer .address {
+    color: #ffffff;
+    font-size: 20px;
+    width: 570px;
+    padding-left: 370px;
+    position: absolute;
+    top: 155px;
+  }
+  main footer .address .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  main footer .address .tel {
+    text-decoration: underline;
+  }
+  main footer .address .mail {
+    display: block;
+    text-decoration: underline;
+  }
+  main footer .address .last-section {
+    display: block;
+  }
+  main footer .address p {
+    font-family: "Ysabeau Office Medium";
+  }
+  main footer .socials-footer {
+    width: 110px;
+    position: absolute;
+    top: 531px;
+    left: 370px;
+    display: flex;
+    justify-content: space-around;
+  }
+  main footer div.map {
+    position: absolute;
+    top: 73px;
+    left: 970px;
+  }
+  main footer div.map img:last-child {
+    position: absolute;
+    top: 453px;
+    left: 503px;
+  }
+  main footer div.footer {
+    width: 1198px;
+    height: 73px;
+    position: absolute;
+    top: 623px;
+    left: 370px;
+  }
+  main footer div.footer span.note {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 240px;
+    position: relative;
+    left: 60px;
+    top: -30px;
+  }
+  main footer div.footer span.terms {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 160px;
+    top: -30px;
+  }
+  main footer div.footer span.payment {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 682px;
+    top: -30px;
+    display: block;
+  }
+}
+@media (max-width: 900px) {
+  header {
+    display: flex;
+    height: 96px;
+    width: 100vw;
+  }
+  header section.logo {
+    position: relative;
+    top: 12px;
+    left: 10vw;
+  }
+  header section.menu {
+    position: relative;
+    top: 58px;
+    left: 16vw;
+  }
+  header nav .socials {
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    top: 33px;
+    left: 33vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav .address {
+    display: flex;
+  }
+  header nav .site-location {
+    width: 195px;
+    height: 40px;
+    position: absolute;
+    left: 48vw;
+    top: 31px;
+    display: inline-block;
+  }
+  header nav .site-location .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  header nav .site-location .regular {
+    font-family: "Ysabeau Office Medium";
+  }
+  header nav .office-location {
+    width: 255px;
+    height: 40px;
+    position: absolute;
+    left: 60vw;
+    top: 31px;
+  }
+  header nav .office-location .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  header nav .office-location .regular {
+    font-family: "Ysabeau Office Medium";
+  }
+  header nav .buttons {
+    width: 375px;
+    position: absolute;
+    left: 75vw;
+    top: 33px;
+  }
+  header nav .buttons .first {
+    width: 176px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    text-align: center;
+    background-color: #1C9197;
+    font-size: 16px;
+  }
+  header nav .buttons .second {
+    width: 184px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    background-color: #E87000;
+  }
+  main .video #video {
+    width: 100vw;
+  }
+  main h1 {
+    width: 1170px;
+    height: 50px;
+    top: 376px;
+    position: absolute;
+    left: 19vw;
+    text-align: center;
+    font-size: 75px;
+    font-family: "Caveat";
+    font-size: 75px;
+    color: #ffffff;
+    line-height: 95px;
+  }
+  main p.first-paragraph {
+    width: 1170px;
+    height: 29px;
+    position: absolute;
+    top: 520px;
+    left: 19vw;
+    font-family: "Ysabeau Office Medium";
+    line-height: 47px;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+  }
+  main .cookie {
+    border: solid 1px black;
+    font-family: "Ysabeau Office Medium";
+    font-size: 14px;
+    width: 430px;
+    height: 100px;
+    position: absolute;
+    left: 61vw;
+    top: 75vh;
+    border-color: #1C9197;
+    border-width: 2px;
+    border-radius: 14px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  main .cookie span {
+    width: 383px;
+    height: 60px;
+    left: 20px;
+    position: absolute;
+    line-height: 17px;
+    padding: 15px;
+  }
+  main .cookie .close {
+    position: absolute;
+    left: 210px;
+  }
+  main .event {
+    width: 1171px;
+    height: 1240px;
+    position: absolute;
+    top: 1000px;
+    left: 370px;
+  }
+  main .event h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    height: 32px;
+  }
+  main .event .tab {
+    width: 283px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    display: flex;
+  }
+  main .event .tab div {
+    display: flex;
+  }
+  main .event .tab .shifts {
+    font-family: "Ysabeau Office Bold";
+    font-size: 20px;
+    color: #ffffff;
+    width: 110px;
+    border-radius: 10px;
+    background-color: #E87000;
+    height: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .event .tab .events {
+    width: 128px;
+    position: absolute;
+    left: 150px;
+    font-family: "Ysabeau Office Bold";
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .event .tab .image {
+    position: absolute;
+    left: 750px;
+    top: -80px;
+  }
+  main .event .cards {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    gap: 30px;
+  }
+  main .event .cards .card {
+    height: 449px;
+  }
+  main .event .cards .info {
+    height: 182px;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #EEEADE;
+    margin-top: -5px;
+    border: none;
+  }
+  main .event .cards .info .title {
+    font-family: "Ysabeau Office Bold";
+    font-size: 22px;
+    line-height: 27px;
+    height: 41px;
+    display: inline-block;
+    width: 310px;
+    position: relative;
+    left: 25px;
+    top: 27px;
+  }
+  main .event .cards .info .date {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    width: 320px;
+    height: 16px;
+    left: 25px;
+  }
+  main .event .cards .info button {
+    width: 138px;
+    height: 16px;
+    font-family: "Caveat";
+    font-size: 25px;
+    border: none;
+    position: relative;
+    top: 50px;
+    background-color: #EEEADE;
+  }
+  main .event .cards .info a {
+    position: relative;
+    top: 53px;
+    right: 15px;
+  }
+  main .event .allEvents {
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 17px;
+    width: 177px;
+    height: 60px;
+    position: relative;
+    top: 25px;
+    background-color: #1C9197;
+    border-radius: 16px;
+    border: none;
+    margin-left: 42%;
+  }
+  main section.forest-img {
+    position: absolute;
+    top: 2000px;
+  }
+  main .about {
+    width: 1910px;
+    position: absolute;
+    top: 2344px;
+    height: 800px;
+    background-color: #1C9197;
+  }
+  main .about .forest-about {
+    position: absolute;
+    left: 1140px;
+    top: 30px;
+  }
+  main .about .intro h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    color: #ffffff;
+    width: 1170px;
+    padding-left: 370px;
+    padding-top: 50px;
+  }
+  main .about .intro p {
+    font-family: "Caveat";
+    font-size: 54px;
+    color: #EEEADE;
+    padding-left: 370px;
+    margin-top: -40px;
+  }
+  main .about div.sections {
+    display: grid;
+    grid-template-columns: 570px 570px;
+    gap: 30px;
+    padding-left: 370px;
+  }
+  main .about div.sections .section {
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    display: flex;
+    padding-bottom: 20px;
+  }
+  main .about div.sections .section .text h3 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+  }
+  main .about div.sections .section .text p {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    padding-left: 30px;
+    height: 67px;
+    margin-top: 0px;
+    padding-top: 25px;
+  }
+  main .about div.sections .section img {
+    padding-right: 15px;
+    margin-top: -20px;
+  }
+  main .about button.more {
+    font-family: "Ysabeau Office Bold";
+    font-size: 17px;
+    text-align: center;
+    width: 211px;
+    height: 60px;
+    position: absolute;
+    top: 720px;
+    border-radius: 16px;
+    background-color: #EEEADE;
+    left: 850px;
+    border: none;
+  }
+  main section.partners {
+    width: 1250px;
+    position: absolute;
+    top: 3207px;
+    left: 330px;
+    height: 169px;
+  }
+  main section.partners h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    padding-left: 40px;
+    margin: 0px;
+  }
+  main section.partners .companies img:first-child {
+    position: absolute;
+    top: 110px;
+  }
+  main section.partners .companies img:last-child {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+  }
+  main section.partners .firstCompany, main section.partners .secondCompany, main section.partners .thirdCompany, main section.partners .fourthCompany {
+    position: relative;
+    left: 35px;
+    margin-right: 25px;
+    top: 15px;
+  }
+  main section.mountains {
+    position: absolute;
+    top: 3273px;
+    left: 1140px;
+  }
+  main section.nature {
+    position: absolute;
+    top: 3471px;
+    left: 87px;
+    z-index: 1;
+  }
+  main .road {
+    position: absolute;
+    top: 3446px;
+    width: 1910px;
+    height: 503px;
+    background-color: #EEEADE;
+    display: flex;
+  }
+  main .road .infoRoad .headingRoad h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    width: 530px;
+    padding-left: 370px;
+  }
+  main .road .infoRoad .headingRoad span {
+    display: inline-block;
+    width: 251px;
+    font-family: "Caveat";
+    font-size: 54px;
+    color: #1C9197;
+    position: relative;
+    left: 670px;
+    top: -100px;
+  }
+  main .road .infoRoad .description p {
+    font-family: "Ysabeau Office Bold";
+    font-size: 25px;
+    padding-left: 370px;
+    position: relative;
+    top: -90px;
+    z-index: 2;
+    width: 550px;
+  }
+  main .road .infoRoad .buttons {
+    z-index: 2;
+    position: relative;
+  }
+  main .road .infoRoad .buttons .buildRoute {
+    position: relative;
+    left: 370px;
+    top: -50px;
+    width: 237px;
+    height: 60px;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 16px;
+    border: none;
+    background-color: #1C9197;
+  }
+  main .road .infoRoad .buttons .orderRide {
+    position: relative;
+    left: 385px;
+    top: -50px;
+    width: 227px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #E87000;
+    text-align: center;
+  }
+  main .road .directions {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    width: 570px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+  }
+  main .forestContacts {
+    position: absolute;
+    top: -163px;
+    z-index: 3;
+  }
+  main footer {
+    width: 1910px;
+    height: 741px;
+    position: absolute;
+    top: 3949px;
+    background-color: #1C9197;
+  }
+  main footer h2 {
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 45px;
+    width: 530px;
+    height: 35px;
+    padding-left: 370px;
+    padding-top: 70px;
+  }
+  main footer .address {
+    color: #ffffff;
+    font-size: 20px;
+    width: 570px;
+    padding-left: 370px;
+    position: absolute;
+    top: 155px;
+  }
+  main footer .address .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  main footer .address .tel {
+    text-decoration: underline;
+  }
+  main footer .address .mail {
+    display: block;
+    text-decoration: underline;
+  }
+  main footer .address .last-section {
+    display: block;
+  }
+  main footer .address p {
+    font-family: "Ysabeau Office Medium";
+  }
+  main footer .socials-footer {
+    width: 110px;
+    position: absolute;
+    top: 531px;
+    left: 370px;
+    display: flex;
+    justify-content: space-around;
+  }
+  main footer div.map {
+    position: absolute;
+    top: 73px;
+    left: 970px;
+  }
+  main footer div.map img:last-child {
+    position: absolute;
+    top: 453px;
+    left: 503px;
+  }
+  main footer div.footer {
+    width: 1198px;
+    height: 73px;
+    position: absolute;
+    top: 623px;
+    left: 370px;
+  }
+  main footer div.footer span.note {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 240px;
+    position: relative;
+    left: 60px;
+    top: -30px;
+  }
+  main footer div.footer span.terms {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 160px;
+    top: -30px;
+  }
+  main footer div.footer span.payment {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 682px;
+    top: -30px;
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    display: flex;
+    height: 96px;
+    width: 100vw;
+  }
+  header section.logo {
+    position: relative;
+    top: 12px;
+    left: 10vw;
+  }
+  header section.menu {
+    position: relative;
+    top: 58px;
+    left: 16vw;
+  }
+  header nav .socials {
+    width: 110px;
+    height: 30px;
+    position: absolute;
+    top: 33px;
+    left: 33vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav .address {
+    display: flex;
+  }
+  header nav .site-location {
+    width: 195px;
+    height: 40px;
+    position: absolute;
+    left: 48vw;
+    top: 31px;
+    display: inline-block;
+  }
+  header nav .site-location .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  header nav .site-location .regular {
+    font-family: "Ysabeau Office Medium";
+  }
+  header nav .office-location {
+    width: 255px;
+    height: 40px;
+    position: absolute;
+    left: 60vw;
+    top: 31px;
+  }
+  header nav .office-location .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  header nav .office-location .regular {
+    font-family: "Ysabeau Office Medium";
+  }
+  header nav .buttons {
+    width: 375px;
+    position: absolute;
+    left: 75vw;
+    top: 33px;
+  }
+  header nav .buttons .first {
+    width: 176px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    text-align: center;
+    background-color: #1C9197;
+    font-size: 16px;
+  }
+  header nav .buttons .second {
+    width: 184px;
+    height: 50px;
+    border-radius: 14px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    background-color: #E87000;
+  }
+  main .video #video {
+    width: 100vw;
+  }
+  main h1 {
+    width: 1170px;
+    height: 50px;
+    top: 376px;
+    position: absolute;
+    left: 19vw;
+    text-align: center;
+    font-size: 75px;
+    font-family: "Caveat";
+    font-size: 75px;
+    color: #ffffff;
+    line-height: 95px;
+  }
+  main p.first-paragraph {
+    width: 1170px;
+    height: 29px;
+    position: absolute;
+    top: 520px;
+    left: 19vw;
+    font-family: "Ysabeau Office Medium";
+    line-height: 47px;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+  }
+  main .cookie {
+    border: solid 1px black;
+    font-family: "Ysabeau Office Medium";
+    font-size: 14px;
+    width: 430px;
+    height: 100px;
+    position: absolute;
+    left: 61vw;
+    top: 75vh;
+    border-color: #1C9197;
+    border-width: 2px;
+    border-radius: 14px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  main .cookie span {
+    width: 383px;
+    height: 60px;
+    left: 20px;
+    position: absolute;
+    line-height: 17px;
+    padding: 15px;
+  }
+  main .cookie .close {
+    position: absolute;
+    left: 210px;
+  }
+  main .event {
+    width: 1171px;
+    height: 1240px;
+    position: absolute;
+    top: 1000px;
+    left: 370px;
+  }
+  main .event h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    height: 32px;
+  }
+  main .event .tab {
+    width: 283px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    display: flex;
+  }
+  main .event .tab div {
+    display: flex;
+  }
+  main .event .tab .shifts {
+    font-family: "Ysabeau Office Bold";
+    font-size: 20px;
+    color: #ffffff;
+    width: 110px;
+    border-radius: 10px;
+    background-color: #E87000;
+    height: 50px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .event .tab .events {
+    width: 128px;
+    position: absolute;
+    left: 150px;
+    font-family: "Ysabeau Office Bold";
+    font-size: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .event .tab .image {
+    position: absolute;
+    left: 750px;
+    top: -80px;
+  }
+  main .event .cards {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    gap: 30px;
+  }
+  main .event .cards .card {
+    height: 449px;
+  }
+  main .event .cards .info {
+    height: 182px;
+    border-radius: 0px 0px 30px 30px;
+    background-color: #EEEADE;
+    margin-top: -5px;
+    border: none;
+  }
+  main .event .cards .info .title {
+    font-family: "Ysabeau Office Bold";
+    font-size: 22px;
+    line-height: 27px;
+    height: 41px;
+    display: inline-block;
+    width: 310px;
+    position: relative;
+    left: 25px;
+    top: 27px;
+  }
+  main .event .cards .info .date {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    width: 320px;
+    height: 16px;
+    left: 25px;
+  }
+  main .event .cards .info button {
+    width: 138px;
+    height: 16px;
+    font-family: "Caveat";
+    font-size: 25px;
+    border: none;
+    position: relative;
+    top: 50px;
+    background-color: #EEEADE;
+  }
+  main .event .cards .info a {
+    position: relative;
+    top: 53px;
+    right: 15px;
+  }
+  main .event .allEvents {
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 17px;
+    width: 177px;
+    height: 60px;
+    position: relative;
+    top: 25px;
+    background-color: #1C9197;
+    border-radius: 16px;
+    border: none;
+    margin-left: 42%;
+  }
+  main section.forest-img {
+    position: absolute;
+    top: 2000px;
+  }
+  main .about {
+    width: 1910px;
+    position: absolute;
+    top: 2344px;
+    height: 800px;
+    background-color: #1C9197;
+  }
+  main .about .forest-about {
+    position: absolute;
+    left: 1140px;
+    top: 30px;
+  }
+  main .about .intro h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    color: #ffffff;
+    width: 1170px;
+    padding-left: 370px;
+    padding-top: 50px;
+  }
+  main .about .intro p {
+    font-family: "Caveat";
+    font-size: 54px;
+    color: #EEEADE;
+    padding-left: 370px;
+    margin-top: -40px;
+  }
+  main .about div.sections {
+    display: grid;
+    grid-template-columns: 570px 570px;
+    gap: 30px;
+    padding-left: 370px;
+  }
+  main .about div.sections .section {
+    border: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    display: flex;
+    padding-bottom: 20px;
+  }
+  main .about div.sections .section .text h3 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 25px;
+    padding-left: 30px;
+    margin-bottom: 0px;
+  }
+  main .about div.sections .section .text p {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    padding-left: 30px;
+    height: 67px;
+    margin-top: 0px;
+    padding-top: 25px;
+  }
+  main .about div.sections .section img {
+    padding-right: 15px;
+    margin-top: -20px;
+  }
+  main .about button.more {
+    font-family: "Ysabeau Office Bold";
+    font-size: 17px;
+    text-align: center;
+    width: 211px;
+    height: 60px;
+    position: absolute;
+    top: 720px;
+    border-radius: 16px;
+    background-color: #EEEADE;
+    left: 850px;
+    border: none;
+  }
+  main section.partners {
+    width: 1250px;
+    position: absolute;
+    top: 3207px;
+    left: 330px;
+    height: 169px;
+  }
+  main section.partners h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    padding-left: 40px;
+    margin: 0px;
+  }
+  main section.partners .companies img:first-child {
+    position: absolute;
+    top: 110px;
+  }
+  main section.partners .companies img:last-child {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+  }
+  main section.partners .firstCompany, main section.partners .secondCompany, main section.partners .thirdCompany, main section.partners .fourthCompany {
+    position: relative;
+    left: 35px;
+    margin-right: 25px;
+    top: 15px;
+  }
+  main section.mountains {
+    position: absolute;
+    top: 3273px;
+    left: 1140px;
+  }
+  main section.nature {
+    position: absolute;
+    top: 3471px;
+    left: 87px;
+    z-index: 1;
+  }
+  main .road {
+    position: absolute;
+    top: 3446px;
+    width: 1910px;
+    height: 503px;
+    background-color: #EEEADE;
+    display: flex;
+  }
+  main .road .infoRoad .headingRoad h2 {
+    font-family: "Ysabeau Office Bold";
+    font-size: 45px;
+    width: 530px;
+    padding-left: 370px;
+  }
+  main .road .infoRoad .headingRoad span {
+    display: inline-block;
+    width: 251px;
+    font-family: "Caveat";
+    font-size: 54px;
+    color: #1C9197;
+    position: relative;
+    left: 670px;
+    top: -100px;
+  }
+  main .road .infoRoad .description p {
+    font-family: "Ysabeau Office Bold";
+    font-size: 25px;
+    padding-left: 370px;
+    position: relative;
+    top: -90px;
+    z-index: 2;
+    width: 550px;
+  }
+  main .road .infoRoad .buttons {
+    z-index: 2;
+    position: relative;
+  }
+  main .road .infoRoad .buttons .buildRoute {
+    position: relative;
+    left: 370px;
+    top: -50px;
+    width: 237px;
+    height: 60px;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 16px;
+    border: none;
+    background-color: #1C9197;
+  }
+  main .road .infoRoad .buttons .orderRide {
+    position: relative;
+    left: 385px;
+    top: -50px;
+    width: 227px;
+    height: 60px;
+    border-radius: 16px;
+    border: none;
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #E87000;
+    text-align: center;
+  }
+  main .road .directions {
+    font-family: "Ysabeau Office Medium";
+    font-size: 20px;
+    width: 570px;
+    position: relative;
+    left: 40px;
+    top: 30px;
+  }
+  main .forestContacts {
+    position: absolute;
+    top: -163px;
+    z-index: 3;
+  }
+  main footer {
+    width: 1910px;
+    height: 741px;
+    position: absolute;
+    top: 3949px;
+    background-color: #1C9197;
+  }
+  main footer h2 {
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 45px;
+    width: 530px;
+    height: 35px;
+    padding-left: 370px;
+    padding-top: 70px;
+  }
+  main footer .address {
+    color: #ffffff;
+    font-size: 20px;
+    width: 570px;
+    padding-left: 370px;
+    position: absolute;
+    top: 155px;
+  }
+  main footer .address .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  main footer .address .tel {
+    text-decoration: underline;
+  }
+  main footer .address .mail {
+    display: block;
+    text-decoration: underline;
+  }
+  main footer .address .last-section {
+    display: block;
+  }
+  main footer .address p {
+    font-family: "Ysabeau Office Medium";
+  }
+  main footer .socials-footer {
+    width: 110px;
+    position: absolute;
+    top: 531px;
+    left: 370px;
+    display: flex;
+    justify-content: space-around;
+  }
+  main footer div.map {
+    position: absolute;
+    top: 73px;
+    left: 970px;
+  }
+  main footer div.map img:last-child {
+    position: absolute;
+    top: 453px;
+    left: 503px;
+  }
+  main footer div.footer {
+    width: 1198px;
+    height: 73px;
+    position: absolute;
+    top: 623px;
+    left: 370px;
+  }
+  main footer div.footer span.note {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 240px;
+    position: relative;
+    left: 60px;
+    top: -30px;
+  }
+  main footer div.footer span.terms {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 160px;
+    top: -30px;
+  }
+  main footer div.footer span.payment {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 682px;
+    top: -30px;
+    display: block;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    height: 116px;
+    width: 100vw;
+  }
+  header section.logo {
+    top: 15px;
+    left: 4vw;
+  }
+  header section.logo img {
+    width: 40px;
+    height: 36px;
+  }
+  header section.menu {
+    top: 28px;
+    left: 8vw;
+  }
+  header section.menu img {
+    width: 30px;
+  }
+  header nav .socials {
+    width: 90px;
+    height: 30px;
+    top: 25px;
+    left: 30vw;
+  }
+  header nav .socials img {
+    width: 25px;
+    height: 25px;
+  }
+  header nav .address {
+    font-size: 14px;
+  }
+  header nav .site-location {
+    width: 185px;
+    height: 40px;
+    left: 4vw;
+    top: 61px;
+  }
+  header nav .office-location {
+    width: 235px;
+    height: 40px;
+    left: 46vw;
+    top: 63px;
+  }
+  header nav .buttons {
+    width: 160px;
+    left: 54vw;
+    top: 13px;
+  }
+  header nav .buttons .first {
+    width: 92px;
+    height: 40px;
+    font-size: 13px;
+    position: absolute;
+    left: 83px;
+  }
+  header nav .buttons .second {
+    width: 80px;
+    height: 40px;
+    font-size: 13px;
+  }
+  main h1 {
+    width: 70vw;
+    height: 50px;
+    top: 110px;
+    left: 16vw;
+    font-size: 42px;
+    line-height: 40px;
+  }
+  main p.first-paragraph {
+    width: 90vw;
+    height: 25px;
+    top: 200px;
+    left: 7vw;
+    line-height: 24px;
+    font-size: 26px;
+  }
+  main .cookie {
+    font-size: 12px;
+    width: 55vw;
+    height: 80px;
+    left: 43vw;
+    top: 85vh;
+    z-index: 3;
+  }
+  main .cookie span {
+    width: 50vw;
+    height: 60px;
+    line-height: 10px;
+    padding: 8px;
+    position: absolute;
+    left: -5px;
+  }
+  main .close {
+    position: absolute;
+    left: 94vw;
+    top: 86vh;
+    z-index: 3;
+  }
+  main .event {
+    width: 70vw;
+    position: absolute;
+    top: 35vh;
+    left: 5vw;
+  }
+  main .event h2 {
+    font-size: 36px;
+    height: 32px;
+  }
+  main .event .tab {
+    width: 50vw;
+    height: 40px;
+    top: 40px;
+  }
+  main .event .tab .shifts {
+    height: 45px;
+  }
+  main .event .tab .events {
+    left: 40vw;
+    height: 45px;
+  }
+  main .event .tab .image {
+    position: absolute;
+    left: 35vw;
+  }
+  main .event .tab .image img {
+    width: 60vw;
+    height: 90px;
+  }
+  main .event .cards {
+    grid-template-columns: 44vw 44vw;
+    gap: 20px;
+  }
+  main .event .cards .card {
+    height: 320px;
+  }
+  main .event .cards .card img:first-child {
+    width: 45vw;
+  }
+  main .event .cards .info {
+    width: 45vw;
+  }
+  main .event .cards .info .title {
+    font-size: 20px;
+    line-height: 17px;
+    width: 42vw;
+    left: 15px;
+    top: 15px;
+  }
+  main .event .cards .info .date {
+    font-size: 18px;
+    top: 30px;
+    width: 42vw;
+    left: 15px;
+  }
+  main .event .cards .info button {
+    width: 40vw;
+    font-size: 24px;
+    top: 50px;
+  }
+  main .event .cards .info a {
+    top: 35px;
+    left: 55px;
+  }
+  main .event .cards .info a img {
+    width: 36px;
+    height: 14px;
+  }
+  main .event .allEvents {
+    width: 160px;
+    margin-left: 38%;
+  }
+  main section.forest-img {
+    top: 190vh;
+  }
+  main section.forest-img img {
+    width: 45vw;
+    height: 210px;
+  }
+  main .about {
+    width: 100vw;
+    top: 208vh;
+    height: 1650px;
+  }
+  main .about .forest-about {
+    left: 35vw;
+    top: 25px;
+  }
+  main .about .forest-about img {
+    width: 60vw;
+  }
+  main .about .intro h2 {
+    font-size: 36px;
+    width: 95vw;
+    padding-left: 5vw;
+    padding-top: 5px;
+  }
+  main .about .intro p {
+    font-size: 45px;
+    padding-left: 5vw;
+    margin-top: -30px;
+  }
+  main .about div.sections {
+    grid-template-columns: 90vw;
+    padding-left: 5vw;
+  }
+  main .about div.sections .section {
+    padding-bottom: 20px;
+  }
+  main .about div.sections .section .text h3 {
+    font-size: 22px;
+  }
+  main .about div.sections .section .text p {
+    font-size: 20px;
+    height: 190px;
+    padding-top: 5px;
+  }
+  main .about button.more {
+    width: 40vw;
+    height: 60px;
+    top: 182vh;
+    left: 30vw;
+  }
+  main section.partners {
+    display: none;
+  }
+  main section.mountains {
+    position: absolute;
+    top: 350vh;
+    left: 1140px;
+  }
+  main section.nature {
+    position: absolute;
+    top: 500vh;
+    left: 87px;
+    z-index: 1;
+  }
+  main .road {
+    position: absolute;
+    top: 405vh;
+    width: 100vw;
+    height: 503px;
+  }
+  main .road .infoRoad .headingRoad h2 {
+    font-size: 36px;
+    width: 75vw;
+    padding-left: 3vw;
+  }
+  main .road .infoRoad .headingRoad span {
+    width: 55vw;
+    font-size: 36px;
+    left: 65vw;
+    top: -9vh;
+  }
+  main .road .infoRoad .description p {
+    font-size: 18px;
+    padding-left: 3vw;
+    z-index: 2;
+    width: 50vw;
+  }
+  main .road .infoRoad .buttons .buildRoute {
+    position: relative;
+    left: 3vw;
+    top: -50px;
+    width: 35vw;
+    height: 60px;
+  }
+  main .road .infoRoad .buttons .orderRide {
+    position: relative;
+    left: 5vw;
+    top: -50px;
+    width: 35vw;
+  }
+  main .road .directions {
+    font-size: 18px;
+    position: absolute;
+    top: 300px;
+    z-index: 10;
+    box-shadow: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+    display: none;
+  }
+  main .road .directions .close {
+    position: absolute;
+    top: 1vh;
+  }
+  main .forestContacts {
+    position: absolute;
+    top: -163px;
+    z-index: 3;
+  }
+  main footer {
+    width: 1910px;
+    height: 741px;
+    position: absolute;
+    top: 3949px;
+    background-color: #1C9197;
+  }
+  main footer h2 {
+    font-family: "Ysabeau Office Bold";
+    color: #ffffff;
+    font-size: 45px;
+    width: 530px;
+    height: 35px;
+    padding-left: 370px;
+    padding-top: 70px;
+  }
+  main footer .address {
+    color: #ffffff;
+    font-size: 20px;
+    width: 570px;
+    padding-left: 370px;
+    position: absolute;
+    top: 155px;
+  }
+  main footer .address .bold {
+    font-family: "Ysabeau Office Bold";
+  }
+  main footer .address .tel {
+    text-decoration: underline;
+  }
+  main footer .address .mail {
+    display: block;
+    text-decoration: underline;
+  }
+  main footer .address .last-section {
+    display: block;
+  }
+  main footer .address p {
+    font-family: "Ysabeau Office Medium";
+  }
+  main footer .socials-footer {
+    width: 110px;
+    position: absolute;
+    top: 531px;
+    left: 370px;
+    display: flex;
+    justify-content: space-around;
+  }
+  main footer div.map {
+    position: absolute;
+    top: 73px;
+    left: 970px;
+  }
+  main footer div.map img:last-child {
+    position: absolute;
+    top: 453px;
+    left: 503px;
+  }
+  main footer div.footer {
+    width: 1198px;
+    height: 73px;
+    position: absolute;
+    top: 623px;
+    left: 370px;
+  }
+  main footer div.footer span.note {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 240px;
+    position: relative;
+    left: 60px;
+    top: -30px;
+  }
+  main footer div.footer span.terms {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 160px;
+    top: -30px;
+  }
+  main footer div.footer span.payment {
+    font-family: "Ysabeau Office Medium";
+    color: #ffffff;
+    font-size: 16px;
+    width: 270px;
+    height: 40px;
+    position: relative;
+    left: 682px;
+    top: -30px;
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=home.css.map */

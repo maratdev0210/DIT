@@ -1,0 +1,3283 @@
+$boldFont: 'Ysabeau Office Bold';
+$normalFont: 'Ysabeau Office Medium';
+$caveatSemiBold: 'Caveat';
+$white: #ffffff;
+$reserveButton: #1C9197;
+$borderCookie: #1C9197;
+$orderCall: #E87000;
+$information: #EEEADE;
+
+
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: $boldFont;
+    src: url('../fonts/YsabeauOffice-Bold.ttf');
+}
+
+@font-face {
+    font-family: $normalFont;
+    src: url('../fonts/YsabeauOffice-Medium.ttf');
+}
+
+@font-face {
+    font-family: $caveatSemiBold;
+    src: url('../fonts/Caveat-SemiBold.ttf');
+}
+
+header {
+    display: flex;
+    height: 96px;
+    width: 100vw;
+    section.logo {
+        position: relative;
+        top: 12px;
+        left: 10vw;
+    }
+    section.menu {
+        position: relative;
+        top: 58px;
+        //left: 318px;
+        left: 16vw;
+    }
+    nav {
+        .socials {
+            width: 110px;
+            height: 30px;
+            position: absolute;
+            top: 33px;
+            //left: 642px;
+            left: 33vw;
+            display: flex;
+            justify-content: space-around;
+        }
+        .address {
+            display: flex;
+        }
+        .site-location {
+            width: 195px;
+            height: 40px;
+            //margin-left: 797px;
+            position: absolute;
+            left: 48vw;
+            top: 31px;
+            display: inline-block;
+            .bold {
+                font-family: $boldFont;
+            }
+            .regular {
+                font-family: $normalFont;
+            }
+        }
+        .office-location {
+            width: 255px;
+            height: 40px;
+            position: absolute;
+            left: 60vw;
+            top: 31px;
+            .bold {
+                font-family: $boldFont;
+            }
+            .regular {
+                font-family: $normalFont;
+            }
+        }
+        .buttons {
+            width: 375px;
+            position: absolute;
+            //left: 1400px;
+            left: 75vw;
+            top: 33px;
+            .first {
+                width: 176px;
+                height: 50px;
+                border-radius: 14px;
+                border: none;
+                font-family: $boldFont;
+                color: $white;
+                text-align: center;
+                background-color: $reserveButton;
+                font-size: 16px;
+            }
+            .second {
+                width: 184px;
+                height: 50px;
+                border-radius: 14px;
+                border: none;
+                font-family: $boldFont;
+                color: $white;
+                font-size: 16px;
+                text-align: center;
+                background-color: $orderCall;
+            }
+        }
+    }
+}
+
+main {
+    .video {
+        #video {
+            width: 100vw;
+        }
+    }
+    h1 {
+        width: 1170px;
+        height: 50px;
+        top: 376px;
+        position: absolute;
+        //left: 375px;
+        left: 19vw;
+        text-align: center;
+        font-size: 75px;
+        font-family: $caveatSemiBold;
+        font-size: 75px;
+        color: $white;
+        line-height: 95px;
+    }
+    p.first-paragraph {
+        width: 1170px;
+        height: 29px;
+        position: absolute;
+        top: 520px;
+        //left: 371px;
+        left: 19vw;
+        font-family: $normalFont;
+        line-height: 47px;
+        font-size: 35px;
+        text-align: center;
+        color: $white;
+    }
+    .cookie {
+        border: solid 1px black;
+        font-family: $normalFont;
+        font-size: 14px;
+        width: 430px;
+        height: 100px;
+        position: absolute;
+        //top: 780px;
+        //left: 1170px;
+        left: 61vw; 
+        top: 75vh;
+        border-color: $borderCookie;
+        border-width: 2px;
+        border-radius: 14px;
+        background-color: $white;
+        text-align: center;
+        span {
+            width: 383px;
+            height: 60px;
+            left: 20px;
+            position: absolute;
+            line-height: 17px;
+            padding: 15px;
+        }
+        .close {
+            position: absolute;
+            left: 210px;
+        }
+    }
+    .event {
+        width: 1171px;
+        height: 1240px;
+        position: absolute;
+        top: 1000px;
+        left: 370px;
+        h2 {
+            font-family: $boldFont;
+            font-size: 45px;
+            height: 32px;
+        }
+        .tab {
+            width: 283px;
+            height: 50px;
+            position: relative;
+            top: 30px;
+            display: flex;
+            div {
+                display: flex;
+            }
+            .shifts {
+                font-family: $boldFont;
+                font-size: 20px;
+                color: $white;
+                width: 110px;
+                border-radius: 10px;
+                background-color: $orderCall;
+                height: 50px;
+                border: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .events {
+                width: 128px;
+                position: absolute;
+                left: 150px;
+                font-family: $boldFont;
+                font-size: 20px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .image {
+                position: absolute;
+                left: 750px;
+                top: -80px;
+            }
+        }
+        .cards {
+            margin-top: 70px;
+            display: grid;
+            grid-template-columns: 370px 370px 370px;
+            gap: 30px;
+            .card {
+                height: 449px;
+            }
+            .info {
+                height: 182px;
+                border-radius: 0px 0px 30px 30px;
+                background-color: $information;
+                margin-top: -5px;
+                border: none;
+                .title {
+                    font-family: $boldFont;
+                    font-size: 22px;
+                    line-height: 27px;
+                    height: 41px;
+                    display: inline-block;
+                    width: 310px;
+                    position: relative;
+                    left: 25px;
+                    top: 27px;
+                }
+                .date {
+                    font-family: $normalFont;
+                    font-size: 20px;
+                    display: inline-block;
+                    position: relative;
+                    top: 35px;
+                    width: 320px;
+                    height: 16px;
+                    left: 25px;
+                }
+                button {
+                    width: 138px;
+                    height: 16px;
+                    font-family: $caveatSemiBold;
+                    font-size: 25px;
+                    border: none;
+                    position: relative;
+                    top: 50px;
+                    background-color: $information;
+                }
+                a {
+                    position: relative;
+                    top: 53px;
+                    right: 15px;
+                }
+            }
+        }
+        .allEvents {
+            font-family: $boldFont;
+            color: $white;
+            font-size: 17px;
+            width: 177px;
+            height: 60px;
+            position: relative;
+            top: 25px;
+            background-color: $borderCookie;
+            border-radius: 16px;
+            border: none;
+            margin-left: 42%;
+        }
+    }
+    section.forest-img {
+        position: absolute;
+        top: 2000px;
+    }
+    .about {
+        .forest-about {
+            position: absolute;
+            left: 1140px;
+            top: 30px;
+        }
+        width: 1910px;
+        position: absolute;
+        top: 2344px;
+        height: 800px;
+        background-color: $borderCookie;
+        .intro {
+            h2 {
+                font-family: $boldFont;
+                font-size: 45px;
+                color: $white;
+                width: 1170px;
+                padding-left: 370px;
+                padding-top: 50px;
+            }
+            p {
+                font-family: $caveatSemiBold;
+                font-size: 54px;
+                color: $information;
+                padding-left: 370px;
+                margin-top: -40px;
+            }
+        }
+        div.sections {
+            display: grid;
+            grid-template-columns: 570px 570px;
+            gap: 30px;
+            padding-left: 370px;
+            .section {
+                border: none;
+                border-radius: 30px;
+                background-color: $white;
+                display: flex;
+                padding-bottom: 20px;
+                .text {
+                    h3 {
+                        font-family: $boldFont;
+                        font-size: 25px;
+                        padding-left: 30px;
+                        margin-bottom: 0px;
+                    }
+                    p {
+                        font-family: $normalFont;
+                        font-size: 20px;
+                        padding-left: 30px;
+                        height: 67px;
+                        margin-top: 0px;
+                        padding-top: 25px;
+                    }
+                }
+                img {
+                    padding-right: 15px;
+                    margin-top: -20px;
+                }
+            }
+        }
+        button.more {
+            font-family: $boldFont;
+            font-size: 17px;
+            text-align: center;
+            width: 211px;
+            height: 60px;
+            position: absolute;
+            top: 720px;
+            border-radius: 16px;
+            background-color: $information;
+            left: 850px;
+            border: none;
+        }
+    }
+    section.partners {
+        width: 1250px;
+        position: absolute;
+        top: 3207px;
+        left: 330px;
+        height: 169px;
+        h2 {
+            font-family: $boldFont;
+            font-size: 45px;
+            padding-left: 40px;
+            margin: 0px;
+        }
+        .companies img:first-child {
+            position: absolute;
+            top: 110px;
+        }
+        .companies img:last-child {
+            position: absolute;
+            top: 110px;
+            right: 0px;
+        }
+        .firstCompany, .secondCompany, .thirdCompany, .fourthCompany {
+            position: relative;
+            left: 35px;
+            margin-right: 25px;
+            top: 15px;
+        }
+    }
+    section.mountains {
+        position: absolute;
+        top: 3273px;
+        left: 1140px;
+    }
+    section.nature {
+        position: absolute;
+        top: 3471px;
+        left: 87px;
+        z-index: 1;
+    }
+    .road {
+        position: absolute;
+        top: 3446px;
+        width: 1910px;
+        height: 503px;
+        background-color: $information;
+        display: flex;
+        .infoRoad {
+            .headingRoad {
+                h2 {
+                    font-family: $boldFont;
+                    font-size: 45px;
+                    width: 530px;
+                    padding-left: 370px;
+                }
+                span {
+                    display: inline-block;
+                    width: 251px;
+                    font-family: $caveatSemiBold;
+                    font-size: 54px;
+                    color: $borderCookie;
+                    position: relative;
+                    left: 670px;
+                    top: -100px;
+                }
+            }
+            .description {
+                p {
+                    font-family: $boldFont;
+                    font-size: 25px;
+                    padding-left: 370px;
+                    position: relative;
+                    top: -90px;
+                    z-index: 2;
+                    width: 550px;
+                }
+            }
+            .buttons {
+                z-index: 2;
+                position: relative;
+                .buildRoute {
+                    position: relative;
+                    left: 370px;
+                    top: -50px;
+                    width: 237px;
+                    height: 60px;
+                    font-family: $boldFont;
+                    color: $white;
+                    text-align: center;
+                    font-size: 17px;
+                    border-radius: 16px;
+                    border: none;
+                    background-color: $borderCookie;
+                }
+                .orderRide {
+                    position: relative;
+                    left: 385px;
+                    top: -50px;
+                    width: 227px;
+                    height: 60px;
+                    border-radius: 16px;
+                    border: none;
+                    font-family: $boldFont;
+                    color: $white;
+                    font-size: 17px;
+                    background-color: $orderCall;
+                    text-align: center;
+                }
+            }
+        }
+        .directions {
+            font-family: $normalFont;
+            font-size: 20px;
+            width: 570px;
+            position: relative;
+            left: 40px;
+            top: 30px;
+        }
+    }
+    .forestContacts {
+        position: absolute;
+        top: -163px;
+        z-index: 3;
+    }
+    footer {
+        //border: solid 1px black;
+        width: 1910px;
+        height: 741px;
+        position: absolute;
+        top: 3949px;
+        background-color: $borderCookie;
+        h2 {
+            font-family: $boldFont;
+            color: $white;
+            font-size: 45px;
+            width: 530px;
+            height: 35px;
+            padding-left: 370px;
+            padding-top: 70px;
+        }
+        .address {
+            color: $white;
+            .bold {
+                font-family: $boldFont;
+            }
+            .tel {
+                text-decoration: underline;
+            }
+            .mail {
+                display: block;
+                text-decoration: underline;
+            }
+            .last-section {
+                display: block;
+            }
+            p {
+                font-family: $normalFont;
+            }
+            font-size: 20px;
+            width: 570px;
+            padding-left: 370px;
+            position: absolute;
+            top: 155px;
+        }
+        .socials-footer {
+            width: 110px;
+            position: absolute;
+            top: 531px;
+            left: 370px;
+            display: flex;
+            justify-content: space-around;
+        }
+        div.map {
+            position: absolute;
+            top: 73px;
+            left: 970px;
+            img:last-child {
+                position: absolute;
+                top: 453px;
+                left: 503px;
+            }
+        }
+        div.footer {
+            width: 1198px;
+            height: 73px;
+            position: absolute;
+            top: 623px;
+            left: 370px;
+            span.note {
+                font-family: $normalFont;
+                color: $white;
+                font-size: 16px;
+                width: 240px;
+                position: relative;
+                left: 60px;
+                top: -30px;
+            }
+            span.terms {
+                font-family: $normalFont;
+                color: $white;
+                font-size: 16px;
+                width: 270px;
+                height: 40px;
+                position: relative;
+                left: 160px;
+                top: -30px;
+            }
+            span.payment {
+                font-family: $normalFont;
+                color: $white;
+                font-size: 16px;
+                width: 270px;
+                height: 40px;
+                position: relative;
+                left: 682px;
+                top: -30px;
+                display: block;
+            }
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    header {
+        display: flex;
+        height: 96px;
+        width: 100vw;
+        section.logo {
+            position: relative;
+            top: 12px;
+            left: 10vw;
+        }
+        section.menu {
+            position: relative;
+            top: 58px;
+            //left: 318px;
+            left: 16vw;
+        }
+        nav {
+            .socials {
+                width: 110px;
+                height: 30px;
+                position: absolute;
+                top: 33px;
+                //left: 642px;
+                left: 33vw;
+                display: flex;
+                justify-content: space-around;
+            }
+            .address {
+                display: flex;
+            }
+            .site-location {
+                width: 195px;
+                height: 40px;
+                //margin-left: 797px;
+                position: absolute;
+                left: 48vw;
+                top: 31px;
+                display: inline-block;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .regular {
+                    font-family: $normalFont;
+                }
+            }
+            .office-location {
+                width: 255px;
+                height: 40px;
+                position: absolute;
+                left: 60vw;
+                top: 31px;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .regular {
+                    font-family: $normalFont;
+                }
+            }
+            .buttons {
+                width: 375px;
+                position: absolute;
+                //left: 1400px;
+                left: 75vw;
+                top: 33px;
+                .first {
+                    width: 176px;
+                    height: 50px;
+                    border-radius: 14px;
+                    border: none;
+                    font-family: $boldFont;
+                    color: $white;
+                    text-align: center;
+                    background-color: $reserveButton;
+                    font-size: 16px;
+                }
+                .second {
+                    width: 184px;
+                    height: 50px;
+                    border-radius: 14px;
+                    border: none;
+                    font-family: $boldFont;
+                    color: $white;
+                    font-size: 16px;
+                    text-align: center;
+                    background-color: $orderCall;
+                }
+            }
+        }
+    }
+    
+    main {
+        .video {
+            #video {
+                width: 100vw;
+            }
+        }
+        h1 {
+            width: 1170px;
+            height: 50px;
+            top: 376px;
+            position: absolute;
+            //left: 375px;
+            left: 19vw;
+            text-align: center;
+            font-size: 75px;
+            font-family: $caveatSemiBold;
+            font-size: 75px;
+            color: $white;
+            line-height: 95px;
+        }
+        p.first-paragraph {
+            width: 1170px;
+            height: 29px;
+            position: absolute;
+            top: 520px;
+            //left: 371px;
+            left: 19vw;
+            font-family: $normalFont;
+            line-height: 47px;
+            font-size: 35px;
+            text-align: center;
+            color: $white;
+        }
+        .cookie {
+            border: solid 1px black;
+            font-family: $normalFont;
+            font-size: 14px;
+            width: 430px;
+            height: 100px;
+            position: absolute;
+            //top: 780px;
+            //left: 1170px;
+            left: 61vw; 
+            top: 75vh;
+            border-color: $borderCookie;
+            border-width: 2px;
+            border-radius: 14px;
+            background-color: $white;
+            text-align: center;
+            span {
+                width: 383px;
+                height: 60px;
+                left: 20px;
+                position: absolute;
+                line-height: 17px;
+                padding: 15px;
+            }
+            .close {
+                position: absolute;
+                left: 210px;
+            }
+        }
+        .event {
+            width: 1171px;
+            height: 1240px;
+            position: absolute;
+            top: 1000px;
+            left: 370px;
+            h2 {
+                font-family: $boldFont;
+                font-size: 45px;
+                height: 32px;
+            }
+            .tab {
+                width: 283px;
+                height: 50px;
+                position: relative;
+                top: 30px;
+                display: flex;
+                div {
+                    display: flex;
+                }
+                .shifts {
+                    font-family: $boldFont;
+                    font-size: 20px;
+                    color: $white;
+                    width: 110px;
+                    border-radius: 10px;
+                    background-color: $orderCall;
+                    height: 50px;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .events {
+                    width: 128px;
+                    position: absolute;
+                    left: 150px;
+                    font-family: $boldFont;
+                    font-size: 20px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .image {
+                    position: absolute;
+                    left: 750px;
+                    top: -80px;
+                }
+            }
+            .cards {
+                margin-top: 70px;
+                display: grid;
+                grid-template-columns: 370px 370px 370px;
+                gap: 30px;
+                .card {
+                    height: 449px;
+                }
+                .info {
+                    height: 182px;
+                    border-radius: 0px 0px 30px 30px;
+                    background-color: $information;
+                    margin-top: -5px;
+                    border: none;
+                    .title {
+                        font-family: $boldFont;
+                        font-size: 22px;
+                        line-height: 27px;
+                        height: 41px;
+                        display: inline-block;
+                        width: 310px;
+                        position: relative;
+                        left: 25px;
+                        top: 27px;
+                    }
+                    .date {
+                        font-family: $normalFont;
+                        font-size: 20px;
+                        display: inline-block;
+                        position: relative;
+                        top: 35px;
+                        width: 320px;
+                        height: 16px;
+                        left: 25px;
+                    }
+                    button {
+                        width: 138px;
+                        height: 16px;
+                        font-family: $caveatSemiBold;
+                        font-size: 25px;
+                        border: none;
+                        position: relative;
+                        top: 50px;
+                        background-color: $information;
+                    }
+                    a {
+                        position: relative;
+                        top: 53px;
+                        right: 15px;
+                    }
+                }
+            }
+            .allEvents {
+                font-family: $boldFont;
+                color: $white;
+                font-size: 17px;
+                width: 177px;
+                height: 60px;
+                position: relative;
+                top: 25px;
+                background-color: $borderCookie;
+                border-radius: 16px;
+                border: none;
+                margin-left: 42%;
+            }
+        }
+        section.forest-img {
+            position: absolute;
+            top: 2000px;
+        }
+        .about {
+            .forest-about {
+                position: absolute;
+                left: 1140px;
+                top: 30px;
+            }
+            width: 1910px;
+            position: absolute;
+            top: 2344px;
+            height: 800px;
+            background-color: $borderCookie;
+            .intro {
+                h2 {
+                    font-family: $boldFont;
+                    font-size: 45px;
+                    color: $white;
+                    width: 1170px;
+                    padding-left: 370px;
+                    padding-top: 50px;
+                }
+                p {
+                    font-family: $caveatSemiBold;
+                    font-size: 54px;
+                    color: $information;
+                    padding-left: 370px;
+                    margin-top: -40px;
+                }
+            }
+            div.sections {
+                display: grid;
+                grid-template-columns: 570px 570px;
+                gap: 30px;
+                padding-left: 370px;
+                .section {
+                    border: none;
+                    border-radius: 30px;
+                    background-color: $white;
+                    display: flex;
+                    padding-bottom: 20px;
+                    .text {
+                        h3 {
+                            font-family: $boldFont;
+                            font-size: 25px;
+                            padding-left: 30px;
+                            margin-bottom: 0px;
+                        }
+                        p {
+                            font-family: $normalFont;
+                            font-size: 20px;
+                            padding-left: 30px;
+                            height: 67px;
+                            margin-top: 0px;
+                            padding-top: 25px;
+                        }
+                    }
+                    img {
+                        padding-right: 15px;
+                        margin-top: -20px;
+                    }
+                }
+            }
+            button.more {
+                font-family: $boldFont;
+                font-size: 17px;
+                text-align: center;
+                width: 211px;
+                height: 60px;
+                position: absolute;
+                top: 720px;
+                border-radius: 16px;
+                background-color: $information;
+                left: 850px;
+                border: none;
+            }
+        }
+        section.partners {
+            width: 1250px;
+            position: absolute;
+            top: 3207px;
+            left: 330px;
+            height: 169px;
+            h2 {
+                font-family: $boldFont;
+                font-size: 45px;
+                padding-left: 40px;
+                margin: 0px;
+            }
+            .companies img:first-child {
+                position: absolute;
+                top: 110px;
+            }
+            .companies img:last-child {
+                position: absolute;
+                top: 110px;
+                right: 0px;
+            }
+            .firstCompany, .secondCompany, .thirdCompany, .fourthCompany {
+                position: relative;
+                left: 35px;
+                margin-right: 25px;
+                top: 15px;
+            }
+        }
+        section.mountains {
+            position: absolute;
+            top: 3273px;
+            left: 1140px;
+        }
+        section.nature {
+            position: absolute;
+            top: 3471px;
+            left: 87px;
+            z-index: 1;
+        }
+        .road {
+            position: absolute;
+            top: 3446px;
+            width: 1910px;
+            height: 503px;
+            background-color: $information;
+            display: flex;
+            .infoRoad {
+                .headingRoad {
+                    h2 {
+                        font-family: $boldFont;
+                        font-size: 45px;
+                        width: 530px;
+                        padding-left: 370px;
+                    }
+                    span {
+                        display: inline-block;
+                        width: 251px;
+                        font-family: $caveatSemiBold;
+                        font-size: 54px;
+                        color: $borderCookie;
+                        position: relative;
+                        left: 670px;
+                        top: -100px;
+                    }
+                }
+                .description {
+                    p {
+                        font-family: $boldFont;
+                        font-size: 25px;
+                        padding-left: 370px;
+                        position: relative;
+                        top: -90px;
+                        z-index: 2;
+                        width: 550px;
+                    }
+                }
+                .buttons {
+                    z-index: 2;
+                    position: relative;
+                    .buildRoute {
+                        position: relative;
+                        left: 370px;
+                        top: -50px;
+                        width: 237px;
+                        height: 60px;
+                        font-family: $boldFont;
+                        color: $white;
+                        text-align: center;
+                        font-size: 17px;
+                        border-radius: 16px;
+                        border: none;
+                        background-color: $borderCookie;
+                    }
+                    .orderRide {
+                        position: relative;
+                        left: 385px;
+                        top: -50px;
+                        width: 227px;
+                        height: 60px;
+                        border-radius: 16px;
+                        border: none;
+                        font-family: $boldFont;
+                        color: $white;
+                        font-size: 17px;
+                        background-color: $orderCall;
+                        text-align: center;
+                    }
+                }
+            }
+            .directions {
+                font-family: $normalFont;
+                font-size: 20px;
+                width: 570px;
+                position: relative;
+                left: 40px;
+                top: 30px;
+            }
+        }
+        .forestContacts {
+            position: absolute;
+            top: -163px;
+            z-index: 3;
+        }
+        footer {
+            //border: solid 1px black;
+            width: 1910px;
+            height: 741px;
+            position: absolute;
+            top: 3949px;
+            background-color: $borderCookie;
+            h2 {
+                font-family: $boldFont;
+                color: $white;
+                font-size: 45px;
+                width: 530px;
+                height: 35px;
+                padding-left: 370px;
+                padding-top: 70px;
+            }
+            .address {
+                color: $white;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .tel {
+                    text-decoration: underline;
+                }
+                .mail {
+                    display: block;
+                    text-decoration: underline;
+                }
+                .last-section {
+                    display: block;
+                }
+                p {
+                    font-family: $normalFont;
+                }
+                font-size: 20px;
+                width: 570px;
+                padding-left: 370px;
+                position: absolute;
+                top: 155px;
+            }
+            .socials-footer {
+                width: 110px;
+                position: absolute;
+                top: 531px;
+                left: 370px;
+                display: flex;
+                justify-content: space-around;
+            }
+            div.map {
+                position: absolute;
+                top: 73px;
+                left: 970px;
+                img:last-child {
+                    position: absolute;
+                    top: 453px;
+                    left: 503px;
+                }
+            }
+            div.footer {
+                width: 1198px;
+                height: 73px;
+                position: absolute;
+                top: 623px;
+                left: 370px;
+                span.note {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 240px;
+                    position: relative;
+                    left: 60px;
+                    top: -30px;
+                }
+                span.terms {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 270px;
+                    height: 40px;
+                    position: relative;
+                    left: 160px;
+                    top: -30px;
+                }
+                span.payment {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 270px;
+                    height: 40px;
+                    position: relative;
+                    left: 682px;
+                    top: -30px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    header {
+        display: flex;
+        height: 96px;
+        width: 100vw;
+        section.logo {
+            position: relative;
+            top: 12px;
+            left: 10vw;
+        }
+        section.menu {
+            position: relative;
+            top: 58px;
+            //left: 318px;
+            left: 16vw;
+        }
+        nav {
+            .socials {
+                width: 110px;
+                height: 30px;
+                position: absolute;
+                top: 33px;
+                //left: 642px;
+                left: 33vw;
+                display: flex;
+                justify-content: space-around;
+            }
+            .address {
+                display: flex;
+            }
+            .site-location {
+                width: 195px;
+                height: 40px;
+                //margin-left: 797px;
+                position: absolute;
+                left: 48vw;
+                top: 31px;
+                display: inline-block;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .regular {
+                    font-family: $normalFont;
+                }
+            }
+            .office-location {
+                width: 255px;
+                height: 40px;
+                position: absolute;
+                left: 60vw;
+                top: 31px;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .regular {
+                    font-family: $normalFont;
+                }
+            }
+            .buttons {
+                width: 375px;
+                position: absolute;
+                //left: 1400px;
+                left: 75vw;
+                top: 33px;
+                .first {
+                    width: 176px;
+                    height: 50px;
+                    border-radius: 14px;
+                    border: none;
+                    font-family: $boldFont;
+                    color: $white;
+                    text-align: center;
+                    background-color: $reserveButton;
+                    font-size: 16px;
+                }
+                .second {
+                    width: 184px;
+                    height: 50px;
+                    border-radius: 14px;
+                    border: none;
+                    font-family: $boldFont;
+                    color: $white;
+                    font-size: 16px;
+                    text-align: center;
+                    background-color: $orderCall;
+                }
+            }
+        }
+    }
+    
+    main {
+        .video {
+            #video {
+                width: 100vw;
+            }
+        }
+        h1 {
+            width: 1170px;
+            height: 50px;
+            top: 376px;
+            position: absolute;
+            //left: 375px;
+            left: 19vw;
+            text-align: center;
+            font-size: 75px;
+            font-family: $caveatSemiBold;
+            font-size: 75px;
+            color: $white;
+            line-height: 95px;
+        }
+        p.first-paragraph {
+            width: 1170px;
+            height: 29px;
+            position: absolute;
+            top: 520px;
+            //left: 371px;
+            left: 19vw;
+            font-family: $normalFont;
+            line-height: 47px;
+            font-size: 35px;
+            text-align: center;
+            color: $white;
+        }
+        .cookie {
+            border: solid 1px black;
+            font-family: $normalFont;
+            font-size: 14px;
+            width: 430px;
+            height: 100px;
+            position: absolute;
+            //top: 780px;
+            //left: 1170px;
+            left: 61vw; 
+            top: 75vh;
+            border-color: $borderCookie;
+            border-width: 2px;
+            border-radius: 14px;
+            background-color: $white;
+            text-align: center;
+            span {
+                width: 383px;
+                height: 60px;
+                left: 20px;
+                position: absolute;
+                line-height: 17px;
+                padding: 15px;
+            }
+            .close {
+                position: absolute;
+                left: 210px;
+            }
+        }
+        .event {
+            width: 1171px;
+            height: 1240px;
+            position: absolute;
+            top: 1000px;
+            left: 370px;
+            h2 {
+                font-family: $boldFont;
+                font-size: 45px;
+                height: 32px;
+            }
+            .tab {
+                width: 283px;
+                height: 50px;
+                position: relative;
+                top: 30px;
+                display: flex;
+                div {
+                    display: flex;
+                }
+                .shifts {
+                    font-family: $boldFont;
+                    font-size: 20px;
+                    color: $white;
+                    width: 110px;
+                    border-radius: 10px;
+                    background-color: $orderCall;
+                    height: 50px;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .events {
+                    width: 128px;
+                    position: absolute;
+                    left: 150px;
+                    font-family: $boldFont;
+                    font-size: 20px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .image {
+                    position: absolute;
+                    left: 750px;
+                    top: -80px;
+                }
+            }
+            .cards {
+                margin-top: 70px;
+                display: grid;
+                grid-template-columns: 370px 370px 370px;
+                gap: 30px;
+                .card {
+                    height: 449px;
+                }
+                .info {
+                    height: 182px;
+                    border-radius: 0px 0px 30px 30px;
+                    background-color: $information;
+                    margin-top: -5px;
+                    border: none;
+                    .title {
+                        font-family: $boldFont;
+                        font-size: 22px;
+                        line-height: 27px;
+                        height: 41px;
+                        display: inline-block;
+                        width: 310px;
+                        position: relative;
+                        left: 25px;
+                        top: 27px;
+                    }
+                    .date {
+                        font-family: $normalFont;
+                        font-size: 20px;
+                        display: inline-block;
+                        position: relative;
+                        top: 35px;
+                        width: 320px;
+                        height: 16px;
+                        left: 25px;
+                    }
+                    button {
+                        width: 138px;
+                        height: 16px;
+                        font-family: $caveatSemiBold;
+                        font-size: 25px;
+                        border: none;
+                        position: relative;
+                        top: 50px;
+                        background-color: $information;
+                    }
+                    a {
+                        position: relative;
+                        top: 53px;
+                        right: 15px;
+                    }
+                }
+            }
+            .allEvents {
+                font-family: $boldFont;
+                color: $white;
+                font-size: 17px;
+                width: 177px;
+                height: 60px;
+                position: relative;
+                top: 25px;
+                background-color: $borderCookie;
+                border-radius: 16px;
+                border: none;
+                margin-left: 42%;
+            }
+        }
+        section.forest-img {
+            position: absolute;
+            top: 2000px;
+        }
+        .about {
+            .forest-about {
+                position: absolute;
+                left: 1140px;
+                top: 30px;
+            }
+            width: 1910px;
+            position: absolute;
+            top: 2344px;
+            height: 800px;
+            background-color: $borderCookie;
+            .intro {
+                h2 {
+                    font-family: $boldFont;
+                    font-size: 45px;
+                    color: $white;
+                    width: 1170px;
+                    padding-left: 370px;
+                    padding-top: 50px;
+                }
+                p {
+                    font-family: $caveatSemiBold;
+                    font-size: 54px;
+                    color: $information;
+                    padding-left: 370px;
+                    margin-top: -40px;
+                }
+            }
+            div.sections {
+                display: grid;
+                grid-template-columns: 570px 570px;
+                gap: 30px;
+                padding-left: 370px;
+                .section {
+                    border: none;
+                    border-radius: 30px;
+                    background-color: $white;
+                    display: flex;
+                    padding-bottom: 20px;
+                    .text {
+                        h3 {
+                            font-family: $boldFont;
+                            font-size: 25px;
+                            padding-left: 30px;
+                            margin-bottom: 0px;
+                        }
+                        p {
+                            font-family: $normalFont;
+                            font-size: 20px;
+                            padding-left: 30px;
+                            height: 67px;
+                            margin-top: 0px;
+                            padding-top: 25px;
+                        }
+                    }
+                    img {
+                        padding-right: 15px;
+                        margin-top: -20px;
+                    }
+                }
+            }
+            button.more {
+                font-family: $boldFont;
+                font-size: 17px;
+                text-align: center;
+                width: 211px;
+                height: 60px;
+                position: absolute;
+                top: 720px;
+                border-radius: 16px;
+                background-color: $information;
+                left: 850px;
+                border: none;
+            }
+        }
+        section.partners {
+            width: 1250px;
+            position: absolute;
+            top: 3207px;
+            left: 330px;
+            height: 169px;
+            h2 {
+                font-family: $boldFont;
+                font-size: 45px;
+                padding-left: 40px;
+                margin: 0px;
+            }
+            .companies img:first-child {
+                position: absolute;
+                top: 110px;
+            }
+            .companies img:last-child {
+                position: absolute;
+                top: 110px;
+                right: 0px;
+            }
+            .firstCompany, .secondCompany, .thirdCompany, .fourthCompany {
+                position: relative;
+                left: 35px;
+                margin-right: 25px;
+                top: 15px;
+            }
+        }
+        section.mountains {
+            position: absolute;
+            top: 3273px;
+            left: 1140px;
+        }
+        section.nature {
+            position: absolute;
+            top: 3471px;
+            left: 87px;
+            z-index: 1;
+        }
+        .road {
+            position: absolute;
+            top: 3446px;
+            width: 1910px;
+            height: 503px;
+            background-color: $information;
+            display: flex;
+            .infoRoad {
+                .headingRoad {
+                    h2 {
+                        font-family: $boldFont;
+                        font-size: 45px;
+                        width: 530px;
+                        padding-left: 370px;
+                    }
+                    span {
+                        display: inline-block;
+                        width: 251px;
+                        font-family: $caveatSemiBold;
+                        font-size: 54px;
+                        color: $borderCookie;
+                        position: relative;
+                        left: 670px;
+                        top: -100px;
+                    }
+                }
+                .description {
+                    p {
+                        font-family: $boldFont;
+                        font-size: 25px;
+                        padding-left: 370px;
+                        position: relative;
+                        top: -90px;
+                        z-index: 2;
+                        width: 550px;
+                    }
+                }
+                .buttons {
+                    z-index: 2;
+                    position: relative;
+                    .buildRoute {
+                        position: relative;
+                        left: 370px;
+                        top: -50px;
+                        width: 237px;
+                        height: 60px;
+                        font-family: $boldFont;
+                        color: $white;
+                        text-align: center;
+                        font-size: 17px;
+                        border-radius: 16px;
+                        border: none;
+                        background-color: $borderCookie;
+                    }
+                    .orderRide {
+                        position: relative;
+                        left: 385px;
+                        top: -50px;
+                        width: 227px;
+                        height: 60px;
+                        border-radius: 16px;
+                        border: none;
+                        font-family: $boldFont;
+                        color: $white;
+                        font-size: 17px;
+                        background-color: $orderCall;
+                        text-align: center;
+                    }
+                }
+            }
+            .directions {
+                font-family: $normalFont;
+                font-size: 20px;
+                width: 570px;
+                position: relative;
+                left: 40px;
+                top: 30px;
+            }
+        }
+        .forestContacts {
+            position: absolute;
+            top: -163px;
+            z-index: 3;
+        }
+        footer {
+            //border: solid 1px black;
+            width: 1910px;
+            height: 741px;
+            position: absolute;
+            top: 3949px;
+            background-color: $borderCookie;
+            h2 {
+                font-family: $boldFont;
+                color: $white;
+                font-size: 45px;
+                width: 530px;
+                height: 35px;
+                padding-left: 370px;
+                padding-top: 70px;
+            }
+            .address {
+                color: $white;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .tel {
+                    text-decoration: underline;
+                }
+                .mail {
+                    display: block;
+                    text-decoration: underline;
+                }
+                .last-section {
+                    display: block;
+                }
+                p {
+                    font-family: $normalFont;
+                }
+                font-size: 20px;
+                width: 570px;
+                padding-left: 370px;
+                position: absolute;
+                top: 155px;
+            }
+            .socials-footer {
+                width: 110px;
+                position: absolute;
+                top: 531px;
+                left: 370px;
+                display: flex;
+                justify-content: space-around;
+            }
+            div.map {
+                position: absolute;
+                top: 73px;
+                left: 970px;
+                img:last-child {
+                    position: absolute;
+                    top: 453px;
+                    left: 503px;
+                }
+            }
+            div.footer {
+                width: 1198px;
+                height: 73px;
+                position: absolute;
+                top: 623px;
+                left: 370px;
+                span.note {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 240px;
+                    position: relative;
+                    left: 60px;
+                    top: -30px;
+                }
+                span.terms {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 270px;
+                    height: 40px;
+                    position: relative;
+                    left: 160px;
+                    top: -30px;
+                }
+                span.payment {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 270px;
+                    height: 40px;
+                    position: relative;
+                    left: 682px;
+                    top: -30px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    header {
+        display: flex;
+        height: 96px;
+        width: 100vw;
+        section.logo {
+            position: relative;
+            top: 12px;
+            left: 10vw;
+        }
+        section.menu {
+            position: relative;
+            top: 58px;
+            //left: 318px;
+            left: 16vw;
+        }
+        nav {
+            .socials {
+                width: 110px;
+                height: 30px;
+                position: absolute;
+                top: 33px;
+                //left: 642px;
+                left: 33vw;
+                display: flex;
+                justify-content: space-around;
+            }
+            .address {
+                display: flex;
+            }
+            .site-location {
+                width: 195px;
+                height: 40px;
+                //margin-left: 797px;
+                position: absolute;
+                left: 48vw;
+                top: 31px;
+                display: inline-block;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .regular {
+                    font-family: $normalFont;
+                }
+            }
+            .office-location {
+                width: 255px;
+                height: 40px;
+                position: absolute;
+                left: 60vw;
+                top: 31px;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .regular {
+                    font-family: $normalFont;
+                }
+            }
+            .buttons {
+                width: 375px;
+                position: absolute;
+                //left: 1400px;
+                left: 75vw;
+                top: 33px;
+                .first {
+                    width: 176px;
+                    height: 50px;
+                    border-radius: 14px;
+                    border: none;
+                    font-family: $boldFont;
+                    color: $white;
+                    text-align: center;
+                    background-color: $reserveButton;
+                    font-size: 16px;
+                }
+                .second {
+                    width: 184px;
+                    height: 50px;
+                    border-radius: 14px;
+                    border: none;
+                    font-family: $boldFont;
+                    color: $white;
+                    font-size: 16px;
+                    text-align: center;
+                    background-color: $orderCall;
+                }
+            }
+        }
+    }
+    
+    main {
+        .video {
+            #video {
+                width: 100vw;
+            }
+        }
+        h1 {
+            width: 1170px;
+            height: 50px;
+            top: 376px;
+            position: absolute;
+            //left: 375px;
+            left: 19vw;
+            text-align: center;
+            font-size: 75px;
+            font-family: $caveatSemiBold;
+            font-size: 75px;
+            color: $white;
+            line-height: 95px;
+        }
+        p.first-paragraph {
+            width: 1170px;
+            height: 29px;
+            position: absolute;
+            top: 520px;
+            //left: 371px;
+            left: 19vw;
+            font-family: $normalFont;
+            line-height: 47px;
+            font-size: 35px;
+            text-align: center;
+            color: $white;
+        }
+        .cookie {
+            border: solid 1px black;
+            font-family: $normalFont;
+            font-size: 14px;
+            width: 430px;
+            height: 100px;
+            position: absolute;
+            //top: 780px;
+            //left: 1170px;
+            left: 61vw; 
+            top: 75vh;
+            border-color: $borderCookie;
+            border-width: 2px;
+            border-radius: 14px;
+            background-color: $white;
+            text-align: center;
+            span {
+                width: 383px;
+                height: 60px;
+                left: 20px;
+                position: absolute;
+                line-height: 17px;
+                padding: 15px;
+            }
+            .close {
+                position: absolute;
+                left: 210px;
+            }
+        }
+        .event {
+            width: 1171px;
+            height: 1240px;
+            position: absolute;
+            top: 1000px;
+            left: 370px;
+            h2 {
+                font-family: $boldFont;
+                font-size: 45px;
+                height: 32px;
+            }
+            .tab {
+                width: 283px;
+                height: 50px;
+                position: relative;
+                top: 30px;
+                display: flex;
+                div {
+                    display: flex;
+                }
+                .shifts {
+                    font-family: $boldFont;
+                    font-size: 20px;
+                    color: $white;
+                    width: 110px;
+                    border-radius: 10px;
+                    background-color: $orderCall;
+                    height: 50px;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .events {
+                    width: 128px;
+                    position: absolute;
+                    left: 150px;
+                    font-family: $boldFont;
+                    font-size: 20px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .image {
+                    position: absolute;
+                    left: 750px;
+                    top: -80px;
+                }
+            }
+            .cards {
+                margin-top: 70px;
+                display: grid;
+                grid-template-columns: 370px 370px 370px;
+                gap: 30px;
+                .card {
+                    height: 449px;
+                }
+                .info {
+                    height: 182px;
+                    border-radius: 0px 0px 30px 30px;
+                    background-color: $information;
+                    margin-top: -5px;
+                    border: none;
+                    .title {
+                        font-family: $boldFont;
+                        font-size: 22px;
+                        line-height: 27px;
+                        height: 41px;
+                        display: inline-block;
+                        width: 310px;
+                        position: relative;
+                        left: 25px;
+                        top: 27px;
+                    }
+                    .date {
+                        font-family: $normalFont;
+                        font-size: 20px;
+                        display: inline-block;
+                        position: relative;
+                        top: 35px;
+                        width: 320px;
+                        height: 16px;
+                        left: 25px;
+                    }
+                    button {
+                        width: 138px;
+                        height: 16px;
+                        font-family: $caveatSemiBold;
+                        font-size: 25px;
+                        border: none;
+                        position: relative;
+                        top: 50px;
+                        background-color: $information;
+                    }
+                    a {
+                        position: relative;
+                        top: 53px;
+                        right: 15px;
+                    }
+                }
+            }
+            .allEvents {
+                font-family: $boldFont;
+                color: $white;
+                font-size: 17px;
+                width: 177px;
+                height: 60px;
+                position: relative;
+                top: 25px;
+                background-color: $borderCookie;
+                border-radius: 16px;
+                border: none;
+                margin-left: 42%;
+            }
+        }
+        section.forest-img {
+            position: absolute;
+            top: 2000px;
+        }
+        .about {
+            .forest-about {
+                position: absolute;
+                left: 1140px;
+                top: 30px;
+            }
+            width: 1910px;
+            position: absolute;
+            top: 2344px;
+            height: 800px;
+            background-color: $borderCookie;
+            .intro {
+                h2 {
+                    font-family: $boldFont;
+                    font-size: 45px;
+                    color: $white;
+                    width: 1170px;
+                    padding-left: 370px;
+                    padding-top: 50px;
+                }
+                p {
+                    font-family: $caveatSemiBold;
+                    font-size: 54px;
+                    color: $information;
+                    padding-left: 370px;
+                    margin-top: -40px;
+                }
+            }
+            div.sections {
+                display: grid;
+                grid-template-columns: 570px 570px;
+                gap: 30px;
+                padding-left: 370px;
+                .section {
+                    border: none;
+                    border-radius: 30px;
+                    background-color: $white;
+                    display: flex;
+                    padding-bottom: 20px;
+                    .text {
+                        h3 {
+                            font-family: $boldFont;
+                            font-size: 25px;
+                            padding-left: 30px;
+                            margin-bottom: 0px;
+                        }
+                        p {
+                            font-family: $normalFont;
+                            font-size: 20px;
+                            padding-left: 30px;
+                            height: 67px;
+                            margin-top: 0px;
+                            padding-top: 25px;
+                        }
+                    }
+                    img {
+                        padding-right: 15px;
+                        margin-top: -20px;
+                    }
+                }
+            }
+            button.more {
+                font-family: $boldFont;
+                font-size: 17px;
+                text-align: center;
+                width: 211px;
+                height: 60px;
+                position: absolute;
+                top: 720px;
+                border-radius: 16px;
+                background-color: $information;
+                left: 850px;
+                border: none;
+            }
+        }
+        section.partners {
+            width: 1250px;
+            position: absolute;
+            top: 3207px;
+            left: 330px;
+            height: 169px;
+            h2 {
+                font-family: $boldFont;
+                font-size: 45px;
+                padding-left: 40px;
+                margin: 0px;
+            }
+            .companies img:first-child {
+                position: absolute;
+                top: 110px;
+            }
+            .companies img:last-child {
+                position: absolute;
+                top: 110px;
+                right: 0px;
+            }
+            .firstCompany, .secondCompany, .thirdCompany, .fourthCompany {
+                position: relative;
+                left: 35px;
+                margin-right: 25px;
+                top: 15px;
+            }
+        }
+        section.mountains {
+            position: absolute;
+            top: 3273px;
+            left: 1140px;
+        }
+        section.nature {
+            position: absolute;
+            top: 3471px;
+            left: 87px;
+            z-index: 1;
+        }
+        .road {
+            position: absolute;
+            top: 3446px;
+            width: 1910px;
+            height: 503px;
+            background-color: $information;
+            display: flex;
+            .infoRoad {
+                .headingRoad {
+                    h2 {
+                        font-family: $boldFont;
+                        font-size: 45px;
+                        width: 530px;
+                        padding-left: 370px;
+                    }
+                    span {
+                        display: inline-block;
+                        width: 251px;
+                        font-family: $caveatSemiBold;
+                        font-size: 54px;
+                        color: $borderCookie;
+                        position: relative;
+                        left: 670px;
+                        top: -100px;
+                    }
+                }
+                .description {
+                    p {
+                        font-family: $boldFont;
+                        font-size: 25px;
+                        padding-left: 370px;
+                        position: relative;
+                        top: -90px;
+                        z-index: 2;
+                        width: 550px;
+                    }
+                }
+                .buttons {
+                    z-index: 2;
+                    position: relative;
+                    .buildRoute {
+                        position: relative;
+                        left: 370px;
+                        top: -50px;
+                        width: 237px;
+                        height: 60px;
+                        font-family: $boldFont;
+                        color: $white;
+                        text-align: center;
+                        font-size: 17px;
+                        border-radius: 16px;
+                        border: none;
+                        background-color: $borderCookie;
+                    }
+                    .orderRide {
+                        position: relative;
+                        left: 385px;
+                        top: -50px;
+                        width: 227px;
+                        height: 60px;
+                        border-radius: 16px;
+                        border: none;
+                        font-family: $boldFont;
+                        color: $white;
+                        font-size: 17px;
+                        background-color: $orderCall;
+                        text-align: center;
+                    }
+                }
+            }
+            .directions {
+                font-family: $normalFont;
+                font-size: 20px;
+                width: 570px;
+                position: relative;
+                left: 40px;
+                top: 30px;
+            }
+        }
+        .forestContacts {
+            position: absolute;
+            top: -163px;
+            z-index: 3;
+        }
+        footer {
+            //border: solid 1px black;
+            width: 1910px;
+            height: 741px;
+            position: absolute;
+            top: 3949px;
+            background-color: $borderCookie;
+            h2 {
+                font-family: $boldFont;
+                color: $white;
+                font-size: 45px;
+                width: 530px;
+                height: 35px;
+                padding-left: 370px;
+                padding-top: 70px;
+            }
+            .address {
+                color: $white;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .tel {
+                    text-decoration: underline;
+                }
+                .mail {
+                    display: block;
+                    text-decoration: underline;
+                }
+                .last-section {
+                    display: block;
+                }
+                p {
+                    font-family: $normalFont;
+                }
+                font-size: 20px;
+                width: 570px;
+                padding-left: 370px;
+                position: absolute;
+                top: 155px;
+            }
+            .socials-footer {
+                width: 110px;
+                position: absolute;
+                top: 531px;
+                left: 370px;
+                display: flex;
+                justify-content: space-around;
+            }
+            div.map {
+                position: absolute;
+                top: 73px;
+                left: 970px;
+                img:last-child {
+                    position: absolute;
+                    top: 453px;
+                    left: 503px;
+                }
+            }
+            div.footer {
+                width: 1198px;
+                height: 73px;
+                position: absolute;
+                top: 623px;
+                left: 370px;
+                span.note {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 240px;
+                    position: relative;
+                    left: 60px;
+                    top: -30px;
+                }
+                span.terms {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 270px;
+                    height: 40px;
+                    position: relative;
+                    left: 160px;
+                    top: -30px;
+                }
+                span.payment {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 270px;
+                    height: 40px;
+                    position: relative;
+                    left: 682px;
+                    top: -30px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        height: 96px;
+        width: 100vw;
+        section.logo {
+            position: relative;
+            top: 12px;
+            left: 10vw;
+        }
+        section.menu {
+            position: relative;
+            top: 58px;
+            //left: 318px;
+            left: 16vw;
+        }
+        nav {
+            .socials {
+                width: 110px;
+                height: 30px;
+                position: absolute;
+                top: 33px;
+                //left: 642px;
+                left: 33vw;
+                display: flex;
+                justify-content: space-around;
+            }
+            .address {
+                display: flex;
+            }
+            .site-location {
+                width: 195px;
+                height: 40px;
+                //margin-left: 797px;
+                position: absolute;
+                left: 48vw;
+                top: 31px;
+                display: inline-block;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .regular {
+                    font-family: $normalFont;
+                }
+            }
+            .office-location {
+                width: 255px;
+                height: 40px;
+                position: absolute;
+                left: 60vw;
+                top: 31px;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .regular {
+                    font-family: $normalFont;
+                }
+            }
+            .buttons {
+                width: 375px;
+                position: absolute;
+                //left: 1400px;
+                left: 75vw;
+                top: 33px;
+                .first {
+                    width: 176px;
+                    height: 50px;
+                    border-radius: 14px;
+                    border: none;
+                    font-family: $boldFont;
+                    color: $white;
+                    text-align: center;
+                    background-color: $reserveButton;
+                    font-size: 16px;
+                }
+                .second {
+                    width: 184px;
+                    height: 50px;
+                    border-radius: 14px;
+                    border: none;
+                    font-family: $boldFont;
+                    color: $white;
+                    font-size: 16px;
+                    text-align: center;
+                    background-color: $orderCall;
+                }
+            }
+        }
+    }
+    
+    main {
+        .video {
+            #video {
+                width: 100vw;
+            }
+        }
+        h1 {
+            width: 1170px;
+            height: 50px;
+            top: 376px;
+            position: absolute;
+            //left: 375px;
+            left: 19vw;
+            text-align: center;
+            font-size: 75px;
+            font-family: $caveatSemiBold;
+            font-size: 75px;
+            color: $white;
+            line-height: 95px;
+        }
+        p.first-paragraph {
+            width: 1170px;
+            height: 29px;
+            position: absolute;
+            top: 520px;
+            //left: 371px;
+            left: 19vw;
+            font-family: $normalFont;
+            line-height: 47px;
+            font-size: 35px;
+            text-align: center;
+            color: $white;
+        }
+        .cookie {
+            border: solid 1px black;
+            font-family: $normalFont;
+            font-size: 14px;
+            width: 430px;
+            height: 100px;
+            position: absolute;
+            //top: 780px;
+            //left: 1170px;
+            left: 61vw; 
+            top: 75vh;
+            border-color: $borderCookie;
+            border-width: 2px;
+            border-radius: 14px;
+            background-color: $white;
+            text-align: center;
+            span {
+                width: 383px;
+                height: 60px;
+                left: 20px;
+                position: absolute;
+                line-height: 17px;
+                padding: 15px;
+            }
+            .close {
+                position: absolute;
+                left: 210px;
+            }
+        }
+        .event {
+            width: 1171px;
+            height: 1240px;
+            position: absolute;
+            top: 1000px;
+            left: 370px;
+            h2 {
+                font-family: $boldFont;
+                font-size: 45px;
+                height: 32px;
+            }
+            .tab {
+                width: 283px;
+                height: 50px;
+                position: relative;
+                top: 30px;
+                display: flex;
+                div {
+                    display: flex;
+                }
+                .shifts {
+                    font-family: $boldFont;
+                    font-size: 20px;
+                    color: $white;
+                    width: 110px;
+                    border-radius: 10px;
+                    background-color: $orderCall;
+                    height: 50px;
+                    border: none;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .events {
+                    width: 128px;
+                    position: absolute;
+                    left: 150px;
+                    font-family: $boldFont;
+                    font-size: 20px;
+                    height: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .image {
+                    position: absolute;
+                    left: 750px;
+                    top: -80px;
+                }
+            }
+            .cards {
+                margin-top: 70px;
+                display: grid;
+                grid-template-columns: 370px 370px 370px;
+                gap: 30px;
+                .card {
+                    height: 449px;
+                }
+                .info {
+                    height: 182px;
+                    border-radius: 0px 0px 30px 30px;
+                    background-color: $information;
+                    margin-top: -5px;
+                    border: none;
+                    .title {
+                        font-family: $boldFont;
+                        font-size: 22px;
+                        line-height: 27px;
+                        height: 41px;
+                        display: inline-block;
+                        width: 310px;
+                        position: relative;
+                        left: 25px;
+                        top: 27px;
+                    }
+                    .date {
+                        font-family: $normalFont;
+                        font-size: 20px;
+                        display: inline-block;
+                        position: relative;
+                        top: 35px;
+                        width: 320px;
+                        height: 16px;
+                        left: 25px;
+                    }
+                    button {
+                        width: 138px;
+                        height: 16px;
+                        font-family: $caveatSemiBold;
+                        font-size: 25px;
+                        border: none;
+                        position: relative;
+                        top: 50px;
+                        background-color: $information;
+                    }
+                    a {
+                        position: relative;
+                        top: 53px;
+                        right: 15px;
+                    }
+                }
+            }
+            .allEvents {
+                font-family: $boldFont;
+                color: $white;
+                font-size: 17px;
+                width: 177px;
+                height: 60px;
+                position: relative;
+                top: 25px;
+                background-color: $borderCookie;
+                border-radius: 16px;
+                border: none;
+                margin-left: 42%;
+            }
+        }
+        section.forest-img {
+            position: absolute;
+            top: 2000px;
+        }
+        .about {
+            .forest-about {
+                position: absolute;
+                left: 1140px;
+                top: 30px;
+            }
+            width: 1910px;
+            position: absolute;
+            top: 2344px;
+            height: 800px;
+            background-color: $borderCookie;
+            .intro {
+                h2 {
+                    font-family: $boldFont;
+                    font-size: 45px;
+                    color: $white;
+                    width: 1170px;
+                    padding-left: 370px;
+                    padding-top: 50px;
+                }
+                p {
+                    font-family: $caveatSemiBold;
+                    font-size: 54px;
+                    color: $information;
+                    padding-left: 370px;
+                    margin-top: -40px;
+                }
+            }
+            div.sections {
+                display: grid;
+                grid-template-columns: 570px 570px;
+                gap: 30px;
+                padding-left: 370px;
+                .section {
+                    border: none;
+                    border-radius: 30px;
+                    background-color: $white;
+                    display: flex;
+                    padding-bottom: 20px;
+                    .text {
+                        h3 {
+                            font-family: $boldFont;
+                            font-size: 25px;
+                            padding-left: 30px;
+                            margin-bottom: 0px;
+                        }
+                        p {
+                            font-family: $normalFont;
+                            font-size: 20px;
+                            padding-left: 30px;
+                            height: 67px;
+                            margin-top: 0px;
+                            padding-top: 25px;
+                        }
+                    }
+                    img {
+                        padding-right: 15px;
+                        margin-top: -20px;
+                    }
+                }
+            }
+            button.more {
+                font-family: $boldFont;
+                font-size: 17px;
+                text-align: center;
+                width: 211px;
+                height: 60px;
+                position: absolute;
+                top: 720px;
+                border-radius: 16px;
+                background-color: $information;
+                left: 850px;
+                border: none;
+            }
+        }
+        section.partners {
+            width: 1250px;
+            position: absolute;
+            top: 3207px;
+            left: 330px;
+            height: 169px;
+            h2 {
+                font-family: $boldFont;
+                font-size: 45px;
+                padding-left: 40px;
+                margin: 0px;
+            }
+            .companies img:first-child {
+                position: absolute;
+                top: 110px;
+            }
+            .companies img:last-child {
+                position: absolute;
+                top: 110px;
+                right: 0px;
+            }
+            .firstCompany, .secondCompany, .thirdCompany, .fourthCompany {
+                position: relative;
+                left: 35px;
+                margin-right: 25px;
+                top: 15px;
+            }
+        }
+        section.mountains {
+            position: absolute;
+            top: 3273px;
+            left: 1140px;
+        }
+        section.nature {
+            position: absolute;
+            top: 3471px;
+            left: 87px;
+            z-index: 1;
+        }
+        .road {
+            position: absolute;
+            top: 3446px;
+            width: 1910px;
+            height: 503px;
+            background-color: $information;
+            display: flex;
+            .infoRoad {
+                .headingRoad {
+                    h2 {
+                        font-family: $boldFont;
+                        font-size: 45px;
+                        width: 530px;
+                        padding-left: 370px;
+                    }
+                    span {
+                        display: inline-block;
+                        width: 251px;
+                        font-family: $caveatSemiBold;
+                        font-size: 54px;
+                        color: $borderCookie;
+                        position: relative;
+                        left: 670px;
+                        top: -100px;
+                    }
+                }
+                .description {
+                    p {
+                        font-family: $boldFont;
+                        font-size: 25px;
+                        padding-left: 370px;
+                        position: relative;
+                        top: -90px;
+                        z-index: 2;
+                        width: 550px;
+                    }
+                }
+                .buttons {
+                    z-index: 2;
+                    position: relative;
+                    .buildRoute {
+                        position: relative;
+                        left: 370px;
+                        top: -50px;
+                        width: 237px;
+                        height: 60px;
+                        font-family: $boldFont;
+                        color: $white;
+                        text-align: center;
+                        font-size: 17px;
+                        border-radius: 16px;
+                        border: none;
+                        background-color: $borderCookie;
+                    }
+                    .orderRide {
+                        position: relative;
+                        left: 385px;
+                        top: -50px;
+                        width: 227px;
+                        height: 60px;
+                        border-radius: 16px;
+                        border: none;
+                        font-family: $boldFont;
+                        color: $white;
+                        font-size: 17px;
+                        background-color: $orderCall;
+                        text-align: center;
+                    }
+                }
+            }
+            .directions {
+                font-family: $normalFont;
+                font-size: 20px;
+                width: 570px;
+                position: relative;
+                left: 40px;
+                top: 30px;
+            }
+        }
+        .forestContacts {
+            position: absolute;
+            top: -163px;
+            z-index: 3;
+        }
+        footer {
+            //border: solid 1px black;
+            width: 1910px;
+            height: 741px;
+            position: absolute;
+            top: 3949px;
+            background-color: $borderCookie;
+            h2 {
+                font-family: $boldFont;
+                color: $white;
+                font-size: 45px;
+                width: 530px;
+                height: 35px;
+                padding-left: 370px;
+                padding-top: 70px;
+            }
+            .address {
+                color: $white;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .tel {
+                    text-decoration: underline;
+                }
+                .mail {
+                    display: block;
+                    text-decoration: underline;
+                }
+                .last-section {
+                    display: block;
+                }
+                p {
+                    font-family: $normalFont;
+                }
+                font-size: 20px;
+                width: 570px;
+                padding-left: 370px;
+                position: absolute;
+                top: 155px;
+            }
+            .socials-footer {
+                width: 110px;
+                position: absolute;
+                top: 531px;
+                left: 370px;
+                display: flex;
+                justify-content: space-around;
+            }
+            div.map {
+                position: absolute;
+                top: 73px;
+                left: 970px;
+                img:last-child {
+                    position: absolute;
+                    top: 453px;
+                    left: 503px;
+                }
+            }
+            div.footer {
+                width: 1198px;
+                height: 73px;
+                position: absolute;
+                top: 623px;
+                left: 370px;
+                span.note {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 240px;
+                    position: relative;
+                    left: 60px;
+                    top: -30px;
+                }
+                span.terms {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 270px;
+                    height: 40px;
+                    position: relative;
+                    left: 160px;
+                    top: -30px;
+                }
+                span.payment {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 270px;
+                    height: 40px;
+                    position: relative;
+                    left: 682px;
+                    top: -30px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    header {
+        height: 116px;
+        width: 100vw;
+        section.logo {
+            top: 15px;
+            left: 4vw;
+            img {
+                width: 40px;
+                height: 36px;
+            }
+        }
+        section.menu {
+            top: 28px;
+            left: 8vw;
+            img {
+                width: 30px;
+            }
+        }
+        nav {
+            .socials {
+                width: 90px;
+                height: 30px;
+                top: 25px;
+                left: 30vw;
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+            .address {
+                font-size: 14px;
+            }
+            .site-location {
+                width: 185px;
+                height: 40px;
+                left: 4vw;
+                top: 61px;
+            }
+            .office-location {
+                width: 235px;
+                height: 40px;
+                left: 46vw;
+                top: 63px;
+            }
+            .buttons {
+                width: 160px;
+                left: 54vw;
+                top: 13px;
+                .first {
+                    width: 92px;
+                    height: 40px; 
+                    font-size: 13px;
+                    position: absolute;
+                    left: 83px;
+                }
+                .second {
+                    width: 80px;
+                    height: 40px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    
+    main {
+        h1 {
+            width: 70vw;
+            height: 50px;
+            top: 110px;
+            left: 16vw;
+            font-size: 42px;
+            line-height: 40px;
+        }
+        p.first-paragraph {
+            width: 90vw;
+            height: 25px;
+            top: 200px;
+            left: 7vw;
+            line-height: 24px;
+            font-size: 26px;
+        }
+        .cookie {
+            font-size: 12px;
+            width: 55vw;
+            height: 80px;
+            left: 43vw; 
+            top: 85vh;
+            span {
+                width: 50vw;
+                height: 60px;
+                line-height: 10px;
+                padding: 8px;
+                position: absolute;
+                left: -5px;
+            }
+            z-index: 3;
+        }
+        .close {
+            position: absolute;
+            left: 94vw;
+            top: 86vh;
+            z-index: 3;
+        }
+        .event {
+            width: 70vw;
+            position: absolute;
+            top: 35vh;
+            left: 5vw;
+            h2 {
+                font-size: 36px;
+                height: 32px;
+            }
+            .tab {
+                width: 50vw;
+                height: 40px;
+                top: 40px;
+                .shifts {
+                    height: 45px;
+                }
+                .events {
+                    left: 40vw;
+                    height: 45px;
+                }
+                .image {
+                    position: absolute;
+                    left: 35vw;
+                    img {
+                        width: 60vw;
+                        height: 90px;
+                    }
+                }
+            }
+            .cards {
+                grid-template-columns: 44vw 44vw;
+                gap: 20px;
+                .card {
+                    height: 320px;
+                    img:first-child {
+                        width: 45vw;
+                    }
+                }
+                .info {
+                    width: 45vw;
+                    .title {
+                        font-size: 20px;
+                        line-height: 17px;
+                        width: 42vw;
+                        left: 15px;
+                        top: 15px;
+                    }
+                    .date {
+                        font-size: 18px;
+                        top: 30px;
+                        width: 42vw;
+                        left: 15px;
+                    }
+                    button {
+                        width: 40vw;
+                        font-size: 24px;
+                        top: 50px;
+                    }
+                    a {
+                        top: 35px;
+                        left: 55px;
+                        img {
+                            width: 36px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+            .allEvents {
+                width: 160px;
+                margin-left: 38%;
+            }
+        }
+        section.forest-img {
+            top: 190vh;
+            img {
+                width: 45vw;
+                height: 210px;
+            }
+        }
+        .about {
+            .forest-about {
+                left: 35vw;
+                top: 25px;
+                img {
+                    width: 60vw;
+                }
+            }
+            width: 100vw;
+            top: 208vh;
+            height: 1650px;
+            .intro {
+                h2 {
+                    font-size: 36px;
+                    width: 95vw;
+                    padding-left: 5vw;
+                    padding-top: 5px;
+                }
+                p {
+                    font-size: 45px;
+                    padding-left: 5vw;
+                    margin-top: -30px;
+                }
+            }
+            div.sections {
+                grid-template-columns: 90vw;
+                padding-left: 5vw;
+                .section {
+                    padding-bottom: 20px;
+                    .text {
+                        h3 {
+                            font-size: 22px;
+                        }
+                        p {
+                            font-size: 20px;
+                            height: 190px;
+                            padding-top: 5px;
+                        }
+                    }
+                }
+            }
+            button.more {
+                width: 40vw;
+                height: 60px;
+                top: 182vh;
+                left: 30vw;
+            }
+        }
+        section.partners {
+            display: none;
+        }
+        section.mountains {
+            position: absolute;
+            top: 350vh;
+            left: 1140px;
+        }
+        section.nature {
+            position: absolute;
+            top: 500vh;
+            left: 87px;
+            z-index: 1;
+        }
+        .road {
+            position: absolute;
+            top: 405vh;
+            width: 100vw;
+            height: 503px;
+            .infoRoad {
+                .headingRoad {
+                    h2 {
+                        font-size: 36px;
+                        width: 75vw;
+                        padding-left: 3vw;
+                    }
+                    span {
+                        width: 55vw;
+                        font-size: 36px;
+                        left: 65vw;
+                        top: -9vh;
+                    }
+                }
+                .description {
+                    p {
+                        font-size: 18px;
+                        padding-left: 3vw;
+                        z-index: 2;
+                        width: 50vw;
+                    }
+                }
+                .buttons {
+                    .buildRoute {
+                        position: relative;
+                        left: 3vw;
+                        top: -50px;
+                        width: 35vw;
+                        height: 60px;
+                    }
+                    .orderRide {
+                        position: relative;
+                        left: 5vw;
+                        top: -50px;
+                        width: 35vw;
+                    }
+                }
+            }
+            .directions {
+                font-size: 18px;
+                position: absolute;
+                top: 300px;
+                z-index: 10;
+                box-shadow: 20px 20px 20px 20px;
+                background-color: $white;
+                width: 100vw;
+                height: 100vh;
+                left: 0px;
+                display: none;
+                .close {
+                    position: absolute;
+                    top: 1vh;
+                }
+            }
+        }
+        .forestContacts {
+            position: absolute;
+            top: -163px;
+            z-index: 3;
+        }
+        footer {
+            //border: solid 1px black;
+            width: 1910px;
+            height: 741px;
+            position: absolute;
+            top: 3949px;
+            background-color: $borderCookie;
+            h2 {
+                font-family: $boldFont;
+                color: $white;
+                font-size: 45px;
+                width: 530px;
+                height: 35px;
+                padding-left: 370px;
+                padding-top: 70px;
+            }
+            .address {
+                color: $white;
+                .bold {
+                    font-family: $boldFont;
+                }
+                .tel {
+                    text-decoration: underline;
+                }
+                .mail {
+                    display: block;
+                    text-decoration: underline;
+                }
+                .last-section {
+                    display: block;
+                }
+                p {
+                    font-family: $normalFont;
+                }
+                font-size: 20px;
+                width: 570px;
+                padding-left: 370px;
+                position: absolute;
+                top: 155px;
+            }
+            .socials-footer {
+                width: 110px;
+                position: absolute;
+                top: 531px;
+                left: 370px;
+                display: flex;
+                justify-content: space-around;
+            }
+            div.map {
+                position: absolute;
+                top: 73px;
+                left: 970px;
+                img:last-child {
+                    position: absolute;
+                    top: 453px;
+                    left: 503px;
+                }
+            }
+            div.footer {
+                width: 1198px;
+                height: 73px;
+                position: absolute;
+                top: 623px;
+                left: 370px;
+                span.note {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 240px;
+                    position: relative;
+                    left: 60px;
+                    top: -30px;
+                }
+                span.terms {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 270px;
+                    height: 40px;
+                    position: relative;
+                    left: 160px;
+                    top: -30px;
+                }
+                span.payment {
+                    font-family: $normalFont;
+                    color: $white;
+                    font-size: 16px;
+                    width: 270px;
+                    height: 40px;
+                    position: relative;
+                    left: 682px;
+                    top: -30px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
